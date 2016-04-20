@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "mop2016",
+    "style": "stylus",
+    "postcss": true
+  }
+}
