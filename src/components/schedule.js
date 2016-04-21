@@ -1,19 +1,26 @@
+import '../styles/schedule.styl'
 import React from 'react';
+import Header from './header'
+import Footer from './footer'
+import Title from './schedule/title'
+import Day from './schedule/day'
 
-let yeomanImage = require('../images/yeoman.png');
-
-class AppComponent extends React.Component {
+class Schedule extends React.Component {
   render() {
     return (
-      <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
+      <div className="schedule">
+        <Header/>
+        <Title/>
+        <div className="container group">
+          <Day/>
+        </div>
+        <Footer/>
       </div>
     );
   }
 }
 
-AppComponent.defaultProps = {
+Schedule.defaultProps = {
 };
 
-export default AppComponent;
+export default Schedule;
