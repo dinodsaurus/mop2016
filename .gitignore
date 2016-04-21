@@ -1,7 +1,8 @@
 # Logs
+.DS_Store
 logs
 *.log
-
+dist
 # Runtime data
 pids
 *.pid

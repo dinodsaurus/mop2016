@@ -1,0 +1,33 @@
+@import "./colors.styl"
+.header
+  padding-top:50px
+h1
+  font-size:28px
+  line-height:28px
+  float: left
+  margin: 0
+.menu
+  position:relative
+  float:right
+  width: 145px
+  height: 50px
+  .double
+    position: absolute
+    content:""
+    z-index: -1
+    left:10px
+    top:10px
+    width: 100%
+    height: 100%
+    border: 5px solid $blue
+  a
+    position:absolute
+    display:block
+    width: 145px
+    line-height: 50px
+    border: 5px solid $blue
+    font-size:21px
+    font-family: "DiaBlack"
+    text-align:center
+    background:white
+    z-index:100
