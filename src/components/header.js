@@ -6,15 +6,35 @@ class Header extends React.Component {
     super();
     this.state = {};
     this.state.showMenu = false;
+    this.state.exiting = false;
+    this.state.noAnimation = false;
   }
   showMenu(e) {
     e.preventDefault();
-    this.setState({showMenu: !this.state.showMenu})
+    this.setState({showMenu: !this.state.showMenu});
+  }
+  moveUp(){
+    this.setState({
+      exiting: true,
+      showMenu: false
+    })
+    // move the menu back down
+    setTimeout(() => {
+      this.setState({
+        exiting: false,
+        noAnimation: true
+      })
+      setTimeout(() => {
+        this.setState({
+          noAnimation: false
+        })
+      }, 100);
+    }, 1000);
   }
   render() {
     var text = 'Menu';
     if (this.state.showMenu) {
-      text = "Close";
+      text = 'Close';
     }
     return (
       <div className="header">
@@ -26,8 +46,8 @@ class Header extends React.Component {
           Varaždin</h1>
         <div className="menu">
           <div className="double"></div>
-          <a onClick={this.showMenu.bind(this)}>{text}</a>
-          <Menu active={this.state.showMenu}/>
+          <a className="menuLink" onClick={this.showMenu.bind(this)}>{text}</a>
+          <Menu noAnimation={this.state.noAnimation} active={this.state.showMenu} exiting={this.state.exiting} moveUp={this.moveUp.bind(this)}/>
         </div>
         </div>
       </div>

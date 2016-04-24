@@ -1,5 +1,14 @@
 @import "./fonts"
 @import "./colors"
+html
+  box-sizing: border-box;
+
+*, *:before, *:after
+  box-sizing: inherit;
+
+a
+  text-decoration:none
+  color: $blue
 .group:after
   content: ""
   display: table

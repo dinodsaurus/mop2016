@@ -1,0 +1,20 @@
+@import 's-grid-settings'
+// you can overwrite settings here
+@import 's-grid-functions'
+@import './colors'
+section
+  grid()
+  padding-top: 50px
+  .titleTxt
+    cell(8)
+    cell-offset(2)
+    font-size:24pt
+    line-height: 32pt
+  .cell
+    cell-offset(4)
+    cell(4)
+    font-family: "DiaLight"
+    margin-top:50px
+    font-size: 8pt
+    line-height: 12px
+    color: $grey

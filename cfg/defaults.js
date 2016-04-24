@@ -9,7 +9,7 @@
 const path = require('path');
 const srcPath = path.join(__dirname, '/../src');
 const dfltPort = 8000;
-
+const  SGrid = require('s-grid');
 /**
  * Get the default modules object for webpack
  * @return {Object}
@@ -41,8 +41,8 @@ function getDefaultModules() {
         loader: 'style-loader!css-loader!less-loader'
       },
       {
-        test: /\.styl/,
-        loader: 'style-loader!css-loader!stylus-loader'
+        test: /\.styl$/,
+        loader: 'style-loader!css-loader!stylus-loader?paths=node_modules/s-grid/'
       },
       {
         test: /\.(png|jpg|gif|woff2)$/,

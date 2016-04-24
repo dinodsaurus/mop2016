@@ -1,5 +1,50 @@
+@import "./colors"
 .footer
   margin: 80px 0
+  .program
+    position:relative
+    width: 100%
+    height: 200px
+    border: 5px solid $blue
+    margin: 100px 0
+    overflow:hidden
+    &:hover
+      .hand
+        right: -100px
+      .hand2
+        left: 20px
+      a
+        padding-left: 120px
+    a
+      position: absolute
+      display: block
+      top: 0
+      left: 0
+      padding: 70px
+      width: 100%
+      height: 100%
+      font-size:48px
+      margin: 0
+      transition: all .3s
+    .hand
+      position:absolute
+      right: 70px
+      top: 60px
+      width: 75px
+      height: 75px
+      background: url("../images/hand_icon.svg")
+      background-size: 100%
+      transition: all .3s
+    .hand2
+      content: ""
+      position:absolute
+      left: -100px
+      top: 60px
+      width: 75px
+      height: 75px
+      background: url("../images/hand_icon.svg")
+      background-size: 100%
+      transition: all .3s
   .txt
     float:left
     font-size: 17px
