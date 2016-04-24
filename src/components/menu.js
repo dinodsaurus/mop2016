@@ -1,7 +1,7 @@
 import '../styles/menu.styl';
 import React from 'react';
-import { Link } from 'react-router'
-import classNames from 'classNames';
+import { Link } from 'react-router';
+import classNames from 'classnames';
 class Header extends React.Component {
   translate() {
     this.props.moveUp()
