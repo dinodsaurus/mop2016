@@ -3,7 +3,7 @@ import 'styles/App.styl';
 
 import React from 'react';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
-import App from './components/app';
+import App from './components/App';
 import Home from './components/home';
 import Schedule from './components/schedule';
 import Speakers from './components/speakers';
