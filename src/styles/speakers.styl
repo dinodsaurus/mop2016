@@ -1,0 +1,43 @@
+@import 's-grid-settings'
+// you can overwrite settings here
+@import 's-grid-functions'
+@import './colors'
+
+.speakersList
+  margin: 70px 0
+  grid()
+  .item
+    cell(4)
+    position:relative
+    margin-bottom: 20px
+    cursor:pointer
+    &:hover
+      .img
+        img
+          top: -10px
+          left: -10px
+    h2
+      font-size:14px
+      margin-top: 10px
+    p
+      font-family: "DiaLight"
+      color: $grey
+      font-size: 12px
+    .img
+      position:relative
+      width: 100%
+      height: 230px
+      .bck
+        position:absolute
+        width: 100%
+        height: 100%
+        background: url("../images/background_speaker.png")
+        background-size: 80% auto
+      img
+        position:absolute
+        z-index: 10
+        top: 0
+        left: 0
+        width: 100%
+        height: 230px
+        transition: all .3s
