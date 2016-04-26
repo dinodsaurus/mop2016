@@ -7,7 +7,6 @@ import App from './components/App';
 import Home from './components/home';
 import Schedule from './components/schedule';
 import Speakers from './components/speakers';
-import Spancirfest from './components/spancirfest';
 import Sponsors from './components/sponsors';
 import About from './components/about';
 
