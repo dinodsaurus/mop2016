@@ -18,7 +18,6 @@ const router = () => {
         <IndexRoute component={Home} />
         <Route path="schedule" component={Schedule}/>
         <Route path="speakers" component={Speakers}/>
-        <Route path="spancirfest" component={Spancirfest}/>
         <Route path="sponsors" component={Sponsors}/>
         <Route path="about" component={About}/>
       </Route>
