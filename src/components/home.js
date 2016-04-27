@@ -1,6 +1,8 @@
 import '../styles/home.styl';
 import React from 'react';
 
+import Paralax from './paralax/paralax';
+
 import workshops from '../images/workshops_home.svg';
 import lectures from '../images/lectures_home.svg';
 import exhibitions from '../images/exibition_home.svg';
@@ -17,12 +19,10 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="home">
+        <Paralax/>
         <div className="container">
           <div className="workshops">
             <img src={workshops}/>
-            <div className="video video1">
-              <video controls src={workshopVideo} type="video/mp4"/>
-            </div>
             <div className="video video2">
               <video controls src={workshopVideo2} type="video/mp4"/>
             </div>
@@ -32,15 +32,9 @@ class AppComponent extends React.Component {
             <div  className="video video1">
               <video controls src={lecturesVideo} type="video/mp4"/>
             </div>
-            <div  className="video video2">
-              <video controls src={lecturesVideo2} type="video/mp4"/>
-            </div>
           </div>
           <div className="exhibitions">
             <img src={exhibitions}/>
-            <div className="video video1">
-              <video controls src={exhibitionsVideo} type="video/mp4"/>
-            </div>
             <div className="video video2">
               <video controls src={exhibitionsVideo2} type="video/mp4"/>
             </div>
