@@ -2,19 +2,51 @@
 // you can overwrite settings here
 @import 's-grid-functions'
 @import './colors'
-section
-  grid()
+.about
   padding-top: 50px
   .titleTxt
-    cell(8)
-    cell-offset(2)
     font-size:24pt
     line-height: 32pt
-  .cell
-    cell-offset(4)
-    cell(4)
-    font-family: "DiaLight"
-    margin-top:50px
-    font-size: 8pt
-    line-height: 12px
-    color: $grey
+    max-width:1060px
+    margin:0 auto
+    h2
+      font-size:64px
+      line-height: 72px
+      color: $blue
+      text-align:center
+    p
+      font-family: "DiaLight"
+      text-align:center
+      color: $grey
+      font-size:24px
+      line-height: 36px
+      margin-top: 30px
+      margin-bottom: 100px
+  .section
+    grid()
+    margin: 100px 0
+    .item
+      cell(4, g:0)
+      h3
+        font-size:36px
+      &:last-child
+        cell(8, g:0)
+        p
+          font-family: "DiaLight"
+          font-size:24px
+          color: $grey
+
+        .past
+          margin-top: 50px
+          h4
+            font-size:13px
+            color:$grey
+            text-transform:uppercase
+            margin-bottom: 20px
+          a
+            font-size:120px
+            margin-right:35px
+            transition: border .3s
+            border-bottom: 5px solid transparent;
+            &:hover
+              border-color: $blue
