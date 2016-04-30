@@ -36,7 +36,7 @@
           font-size:24px
           color: $grey
 
-        .past
+        .small
           margin-top: 50px
           h4
             font-size:13px
@@ -47,6 +47,32 @@
             font-size:120px
             margin-right:35px
             transition: border .3s
-            border-bottom: 5px solid transparent;
+            border-bottom: 5px solid transparent
             &:hover
               border-color: $blue
+        .team
+          margin-top:0
+          .half
+            h4
+              color: $blue
+              text-transform: none
+              line-height:32px
+              margin-bottom: 0
+              margin-top: 15px
+              font-size: 24px
+            p
+              font-size:24px
+              line-height:32px
+        .grid
+          grid()
+
+          .half
+            cell(1,2,g:0)
+            padding-right:30px
+            h4
+              margin-top: 30px
+              &:first-child
+                margin-top: 0
+            a
+              font-size:24px
+              border-bottom: 3px solid transparent

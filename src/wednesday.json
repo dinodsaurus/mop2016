@@ -1,0 +1,64 @@
+{
+  "schedule": [
+    {
+      "type": "",
+      "time": "19.00 — 19.30",
+      "author": "MOP",
+      "title": "Doors Open — Opening speech",
+      "location": "Kino Galerija"
+    },
+    {
+      "type": "E",
+      "time": "19.30 — 19.45",
+      "author": "Vanima",
+      "author_desc": "VANIMA is one of the most active organizations in Varaždin as well as co-creator and participant of Varaždin's cultural policy.",
+      "title": "VAR-T-EKS",
+      "description": "Acronym VAR–T–EKS hides the project titled Varaždin experimental film factory done by Creative Film Studio VANIMA partnered by University North and Croatian Film Association to introduce experimental film to high school students and university students. Group of enthusiasts created their experimental works mentored by renowned author, Big Golden Arena winner, Damir Čučić, assisted by young student of the ADA Zagreb Marinko Marinkić. Head of the program is Hrvoje Selec from VANIMA while the program was mentored by Professor Robert Geček from MOP department of University North. Program was financially sponsored by the City of Varaždin and CAVC.",
+      "links": [{
+        "website": "http://www.vanima.hr/"
+      }]
+    },
+    {
+      "type": "E",
+      "time": "19.45 — 20.00",
+      "author": "Dario Belić",
+      "img": "Dario_Belic.png",
+      "author_desc": "Freelance photographer and videographer, student of photography at Academy of Dramatic Art in Zagreb.",
+      "title": "Where is the beginning of our private space?",
+      "description": "Using unprotected, easily accessible IP cameras I capture people and situations in their private space. Behind the cameras are people, individuals who live their lives and do not even realize they are being watched.",
+      "links": [{
+        "website": "http://www.dbelic.com",
+        "behance": "http://behance.net/dariobelic",
+        "vimeo": "http://vimeo.com/dariobelic",
+        "twitter": "http://twitter.com/dariobelic",
+        "facebook": "http://facebook.com/dariobphotography/"
+      }]
+    },
+    {
+      "type": "E",
+      "time": "20.00 — 20.30",
+      "author": "UNIN",
+      "title": "Mediapitch photo student exhibition"
+    },
+    {
+      "type": "E",
+      "time": "20.00 — 20.30",
+      "author": "UNIN",
+      "title": "Design student exhibition"
+    },
+    {
+      "type": "E",
+      "time": "20.00 — 20.30",
+      "author": "UNIN",
+      "title": "Student project: Submarine"
+    },
+    {
+      "type": "P",
+      "location": "Scena & Bar Rogoz",
+      "time": "20.30 — 00.00",
+      "author": "",
+      "title": "Music and Networking"
+    }
+
+  ]
+}

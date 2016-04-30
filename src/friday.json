@@ -1,0 +1,69 @@
+{
+  "schedule": [
+    {
+      "type": "W",
+      "time": "13.00 — 17.00",
+      "location": "Palača Herzer",
+      "author": "JavaScript Zagreb",
+      "img": "Dino_Trojak.jpg",
+      "author_desc": "A monthly meetup of JavaScript developer enthusiasts from Zagreb and region.",
+      "title": "NodeSchool workshop - learn JavaScript",
+      "description": "NodeSchool events are open source workshops that teach web software skills, focused on Node and JavaScript. The organization is fully non profit and events are organized all over the world. At this event we will focus on getting you write your first Node application. Every participant will be assigned a mentor who will guide him through NodeSchool tutorials. Bring your laptops with power adapters and we will prepare the rest.",
+      "links": [{
+        "website": "http://nodeschool.io/zagreb/",
+        "github": "https://github.com/jszgb/jszgb.github.io",
+        "meetup": "http://www.meetup.com/JavaScript-Zagreb/"
+      }]
+    },
+    {
+      "type": "W",
+      "time": "14.00 — 18.00",
+      "location": "Palača Herzer",
+      "author": "UX Passion - Darko Čengija",
+      "img": "Darko_Cengija.jpg",
+      "author_desc": "UX Passion is full service UX design and usability firm with global reach.",
+      "title": "User Experience Techniques",
+      "description": "UX Passion - Darko Čengija Passion",
+      "links": [{
+        "website": "https://www.facebook.com/uxpassion/",
+        "facebook": "https://www.facebook.com/uxpassion/ "
+      }]
+    },
+    {
+      "type": "L",
+      "time": "18.30 — 19.15",
+      "location": "Palača Herzer",
+      "author": "Sandro Dujmenović",
+      "img": "Sandro_Dujmenovic.jpg",
+      "author_desc": "Designer and Art Director from Zadar, running SDDS, design studio and consultancy in Zagreb. Born in Banja Luka, BiH, graduated from UMAS/DVK in Split and School of Design in Zagreb. Designed visual communication for major Croatian and British clients for Bunch, worked as an Art Director for Brlog, digital agency of Bruketa&Žinić group. Co-author of new typefaces for Museum of Louvre in Paris. Also worked with Red Bull, Erste, Diners, Fact Mag, Eastern Electrics, Croatian Telecom, Adris Group, United Nations, Guinness and many more. Selected for biannual Exhibition of Croatian Design, and ZGRAF. Published in Novum, Creative Review, Computer Arts magazine. Works with clients regardless of medium, platform or time zones. From concrete to paper.",
+      "title": "Design Dialogues",
+      "description": "",
+      "links": [{
+        "website": "Design Dialogues"
+      }]
+    },
+    {
+      "type": "L",
+      "time": "20.00 — 21.00",
+      "location": "Palača Herzer",
+      "author": "Šesnić&Turković",
+      "img": "Marko_Hrastovec.jpg",
+      "author_desc": "Marko Hrastovec was born in 1990. in Varaždin, earned his bachelor’s degree at School of Design in Zagreb in 2012., and master’s degree in 2014. Same year he pursued 'Type and Media’ master course at 'Royal Academy of Art’ in The Hague, The Netherlands. He started doing type design and type driven design in early days of his studies, so there are some notable collabs with Nikola Đurek (Typonine) in type design domain. Marko was one of the editors for Croatian translation of Gerrit Noordzij’s The Stroke - Potez. At the moment he’s splitting his time between teaching type design and typography at School of Design in Zagreb and client work. He’s also busy developing his own projects for which he in 2016. recieved ‘Certificate of Typographic Excellence’ from New York Type Directors Club.",
+      "title": "Parks of Croatia – a pretty big visual identity",
+      "description": "",
+      "links": [{
+        "website": "http://www.markohrastovec.com",
+        "dribble": "https://dribbble.com/markhrast",
+        "typotheque": "http://www.typotheque.com",
+        "tumblr": "http://www.dijakritika.tumblr.com"
+      }]
+    },
+    {
+      "type": "P",
+      "time": "22.30 — 05.00",
+      "location": "Scena & Bar Rogoz",
+      "author": "",
+      "title": "Music and Networking"
+    }
+  ]
+}
