@@ -1,6 +1,7 @@
 {
   "schedule": [
     {
+      "id": 1,
       "type": "W",
       "time": "15.00 — 19.00",
       "location": "Palača Herzer",
@@ -16,6 +17,7 @@
       }]
     },
     {
+      "id": 2,
       "type": "W",
       "time": "16.00 — 19.00",
       "location": "Palača Herzer",
@@ -29,6 +31,7 @@
       }]
     },
     {
+      "id": 3,
       "type": "W",
       "time": "17.00 — 19.00",
       "location": "Palača Herzer",
@@ -42,6 +45,7 @@
       }]
     },
     {
+      "id": 4,
       "type": "M",
       "time": "17.00 — 19.00",
       "location": "Palača Herzer",

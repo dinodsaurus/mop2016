@@ -1,15 +1,14 @@
 import '../../styles/day.styl'
 import React from 'react'
 
-import img from '../../images/25.05.svg'
 import Session from './session'
 class Day extends React.Component {
   renderSession(session, i){
-    return <Session key={i} session={session}/>;
+    return <Session key={i} dayFull={this.props.dayFull} activateDate={this.props.activateDate} session={session}/>;
   }
   render() {
     const image = {
-      'backgroundImage': 'url(' + img + ')'
+      'backgroundImage': 'url(' + this.props.img + ')'
     }
     return (
       <div className="day">
@@ -18,7 +17,7 @@ class Day extends React.Component {
           <div className="img" style={image}></div>
         </div>
         <div className="sessions">
-          {this.props.schedule.map(this.renderSession)}
+          {this.props.schedule.map(this.renderSession.bind(this))}
         </div>
       </div>
     );

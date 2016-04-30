@@ -1,6 +1,7 @@
 {
   "schedule": [
     {
+      "id": 1,
       "type": "W",
       "time": "13.00 — 17.00",
       "location": "Palača Herzer",
@@ -16,6 +17,7 @@
       }]
     },
     {
+      "id": 2,
       "type": "W",
       "time": "14.00 — 18.00",
       "location": "Palača Herzer",
@@ -30,6 +32,7 @@
       }]
     },
     {
+      "id": 3,
       "type": "L",
       "time": "18.30 — 19.15",
       "location": "Palača Herzer",
@@ -43,6 +46,7 @@
       }]
     },
     {
+      "id": 4,
       "type": "L",
       "time": "20.00 — 21.00",
       "location": "Palača Herzer",
@@ -59,6 +63,7 @@
       }]
     },
     {
+      "id": 5,
       "type": "P",
       "time": "22.30 — 05.00",
       "location": "Scena & Bar Rogoz",

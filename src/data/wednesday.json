@@ -1,6 +1,7 @@
 {
   "schedule": [
     {
+      "id": 1,
       "type": "",
       "time": "19.00 — 19.30",
       "author": "MOP",
@@ -8,6 +9,7 @@
       "location": "Kino Galerija"
     },
     {
+      "id": 2,
       "type": "E",
       "time": "19.30 — 19.45",
       "author": "Vanima",
@@ -19,6 +21,7 @@
       }]
     },
     {
+      "id": 3,
       "type": "E",
       "time": "19.45 — 20.00",
       "author": "Dario Belić",
@@ -35,24 +38,28 @@
       }]
     },
     {
+      "id": 4,
       "type": "E",
       "time": "20.00 — 20.30",
       "author": "UNIN",
       "title": "Mediapitch photo student exhibition"
     },
     {
+      "id": 5,
       "type": "E",
       "time": "20.00 — 20.30",
       "author": "UNIN",
       "title": "Design student exhibition"
     },
     {
+      "id": 6,
       "type": "E",
       "time": "20.00 — 20.30",
       "author": "UNIN",
       "title": "Student project: Submarine"
     },
     {
+      "id": 7,
       "type": "P",
       "location": "Scena & Bar Rogoz",
       "time": "20.30 — 00.00",

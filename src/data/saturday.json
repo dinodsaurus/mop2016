@@ -1,0 +1,197 @@
+{
+  "schedule": [
+    {
+      "id": 1,
+      "type": "W",
+      "time": "10.00 — 12.00",
+      "location": "Palača Herzer",
+      "author": "Maja Jandrić",
+      "img": "Maja_Jandric.jpg",
+      "author_desc": "Maja Jandrić is an award-winning designer currently working on her Master's thesis in Product design at the Zagreb School of Design. Her special interests include DIY and socially-aware design. She loves the sun, nature and board games, and her free time is most often occupied with dancing, photography and sketching.",
+      "title": "The many sides of paper",
+      "description": "Maja Jandrić is an award-winning designer currently working on her Master's thesis in Product design at the Zagreb School of Design. Her special interests include DIY and socially-aware design. She loves the sun, nature and board games, and her free time is most often occupied with dancing, photography and sketching.",
+      "links": {
+        "facebook": "https://www.facebook.com/Dizajnerska-po%C4%8Detnica-804629082898351/?ref=ts"
+      }
+    },
+    {
+      "id": 2,
+      "type": "W",
+      "time": "12.00 — 14.00",
+      "location": "Palača Herzer",
+      "author": "Danijela Domljan",
+      "img": "Danijela_Domljan.jpg",
+      "author_desc": "Doc. dr. sc. Danijela Domljan is a professional member of the Croatian Designers' Association with a Master's degree in design. An award-winning author with 20 years of work experience in furniture design and education in the field of design with wood. She is the first Croatian doctor of sciences in biotechnics, which she became with the thesis 'Designing school furniture with the aim of improving student health' on the Faculty of Forestry in Zagreb, where she now works as a docent. As of yet, she has published over 90 scientific papers, as well as over 50 lectures and numerous exhibitions and workshops, including eight designers' sketching workshops for high school teachers and four for students and children.",
+      "title": "Sketching for designers",
+      "description": "Doc. dr. sc. Danijela Domljan (nee Janković) is a professional member of the Croatian Designers' Association with a Master's degree in design. An award-winning author with 20 years of work experience in furniture design and education in the field of design with wood. She is the first Croatian doctor of sciences in biotechnics, which she became with the thesis 'Designing school furniture with the aim of improving student health' on the Faculty of Forestry in Zagreb, where she now works as a docent. As of yet, she has published over 90 scientific papers, as well as over 50 lectures and numerous exhibitions and workshops, including eight designers' sketching workshops for high school teachers and four for students and children.",
+      "links": {
+        "facebook": "https://www.facebook.com/Dizajnerska-po%C4%8Detnica-804629082898351/?ref=ts"
+      }
+    },
+    {
+      "id": 3,
+      "type": "L",
+      "time": "10.00 — 10.45",
+      "location": "Palača Herzer",
+      "author": "Joel Dullroy",
+      "img": "Joel_Dullroy.jpg",
+      "author_desc": "Joel is a journalist, startup founder and activist for the European freelancers' movement. He lives in Berlin, where he produces a local news podcast called Radio Spaetkauf. He is the international representative of the VGSD, Germany's freelancers' association. He researches and writes about the various ways freelancers are joining together to create common solutions.",
+      "title": "Independents Unite! The Freelancers' Rights Movement",
+      "description": "Freelancers work alone, but have many common problems. Across Europe, they are joining together in organizations and campaigns to improve their working and social conditions. The many different organizations meet regularly and have launched a website to draw attention to their cause:www.freelancers-europe.org. Joel Dullroy is a campaigner involved in the movement, and will talk about the various problems freelancers experience, and what we can do to fix them.",
+      "links": {
+        "twitter": "https://twitter.com/joeldullroy"
+      }
+    },
+    {
+      "id": 4,
+      "type": "L",
+      "time": "10.50 — 11.40",
+      "location": "Palača Herzer",
+      "author": "Philipp Hentschel",
+      "img": "Philipp_Hentschel.jpg",
+      "author_desc": "Entrepreneur and founder of welance - a Coworking Space & community of creatives in Berlin Kreuzberg. Philipp has a passion for new work models, Business Development, Project Management & Consulting. “I have been working with(in) flexible professional structures for over ten years and strive to establish lasting connections between various people & different fields of business. I am member of the Freelancer’s Movement andsupport the idea of „workation retreats“ in the countryside.",
+      "title": "Get inspired and work better tomorrow",
+      "description": "Philipp founded the welance creative collective in 2010. He proved, that freelancers who join forces can get better clients, bigger jobs, higher rates and a modern lifestyle. In his talk he will introduce the core ideas of welance and the challenges they had to face. Get inspired and work better tomorrow.",
+      "links": {
+        "twitter": "https://twitter.com/welance",
+        "facebook": "https://www.facebook.com/welance.de/",
+        "linkedin": "https://www.linkedin.com/in/philipp-hentschel-95280548"
+      }
+    },
+    {
+      "id": 5,
+      "type": "L",
+      "time": "11.50 — 12.10",
+      "location": "Palača Herzer",
+      "author": "Matija Raos",
+      "img": "Matija_Raos.jpg",
+      "author_desc": "Matija is Independent Creative Strategist and visual communications designer. He’s the President of the Croatian Independent Professionals Association (HDNP) and the Program Leader of Coworking Croatia. HDNP is a nonprofit organization aiming to create, promote and sustain healthy eco-system for independent and self-employed professionals in Croatia through advocacy and business support, including professional development, job opportunity platforms and easily accessible social workplace – coworking spaces. Coworking Croatia, the national coworking community and the informal network of coworking spaces coordinated by CIPA, provides information and support platform for the creation of sustainable and collaborative coworking spaces, promotes Coworking movement and connects it to Freelancers movement in Croatia.",
+      "title": "Independent yet united!",
+      "description": "",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/matijaraos"
+      }
+    },
+    {
+      "id": 6,
+      "type": "L",
+      "time": "12.20 — 13.00",
+      "location": "Palača Herzer",
+      "author": "Tomislav Capan",
+      "img": "Tomislav_Capan.jpg",
+      "author_desc": "Hi. I'm Tomislav. My passion lives with creation, with building something out of nothing; my chosen medium is computer software. I'm also a freelancer, a career path which allows me to be constantly challenged, to choose meaningful work, and to gather some flexibility in life.",
+      "title": "Tales of Freelancing from Croatia",
+      "description": "When you live in a small country, a country with an underdeveloped economy, strinving for exellence, those boundaries soon become a limiting factor. Overcoming those limitations might involve moving abroad physically for some, while for others it means just moving your mind and opening up to the world. Everyone makes their own choices, this will be a reflection of mine, and what they brought me; hoping they would inspire some of you to take the leap.",
+      "links": {
+        "twitter": "https://twitter.com/tomislavcapan",
+        "website": "https://about.me/tomislav.capan"
+      }
+    },
+    {
+      "id": 7,
+      "type": "L",
+      "time": "15.00 — 15.45",
+      "location": "Palača Herzer",
+      "author": "Marko Beljan & Zoran Šteković",
+      "img": ["Marko_Beljan.jpg", "Zoran_Stekovic.jpg"],
+      "author_desc": "Hi. I'm Tomislav. My passion lives with creation, with building something out of nothing; my chosen medium is computer software. I'm also a freelancer, a career path which allows me to be constantly challenged, to choose meaningful work, and to gather some flexibility in life.",
+      "title": "Tales of Freelancing from Croatia",
+      "description": "When you live in a small country, a country with an underdeveloped economy, strinving for exellence, those boundaries soon become a limiting factor. Overcoming those limitations might involve moving abroad physically for some, while for others it means just moving your mind and opening up to the world. Everyone makes their own choices, this will be a reflection of mine, and what they brought me; hoping they would inspire some of you to take the leap.",
+      "links": {
+        "twitter": "https://twitter.com/tomislavcapan",
+        "website": "https://about.me/tomislav.capan"
+      }
+    },
+    {
+      "id": 8,
+      "type": "L",
+      "time": "15.45— 16.30",
+      "location": "Palača Herzer",
+      "author": "Miha Artnak & Srđan Prodanovič",
+      "img": "Miha_Artnak_&_Srdan_Prodanovic.jpg",
+      "author_desc": "Human The Miha Artnak is a versatile artist and designer of visual communications. He graduated at the Academy of Fine Arts and Design in Ljubljana. He doesn’t have a favorite color, loves peace and will change the world. Hopefully with you.",
+      "title": "Ljudje: Online businesses and contemporary tools",
+      "description": "We want to democratize as much knowledge as possible and create useful and humorous projects that enrichen our lifes and understanding of our environment.",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/mihaartnak",
+        "linkedin": "https://linkedin.com/in/some1else",
+        "website": "http://ljudje.si/",
+        "website": "https://fatsell.com/"
+      }
+    },
+    {
+      "id": 9,
+      "type": "L",
+      "time": "16.35— 17.20",
+      "location": "Palača Herzer",
+      "author": "Dea Vladilo",
+      "img": "Dea_Vladilo.jpg",
+      "author_desc": "Dea attended the Faculty of Political Science at the University of Zagreb, where she received her bachelor’s degree in Journalism. After working as a journalist for Vecernji list, a Croatian newspaper, Dea served her PR internship in Adris Group. She joined Bellabeat in September 2014. In 2015 they’ve attended CES (Consumer Electronics Show) in Las Vegas, US, and announced their top selling product, a health tracker for women, the LEAF. Aside from being Bellabeat’s spokesperson, Dea is responsible for the company’s public relations with journalists, bloggers, influencers and affiliate partners. Since its launch in May 2015 the LEAF by Bellabeat was sold in over 200k devices and received praise from Forbes, The Wall Street Journal, Techcrunch, Wired, Buzzfeed, VOGUE, Elle, Refinery29 and many others. The company’s products were sported by actress Mila Kunis, fashion blogger and model Chiara Ferragni and others. Dea defines her team as her family, her motto is: “Make it simple, but significant”.",
+      "title": "Women oriented technology",
+      "description": "We often hear how women are not really interested in tech products. Even though there’s a lot of discussion about the lack of women in tech as creators and developers of products, there is a little less constructive talk heard about women as users of technology. Obviously, less products are build with women in mind because there is less women involved in building them, but it is a huge misconception that women are not interested in technology, they’re just overlooked as users! Women today are actually the primary buyers and users of personal and household technology.",
+      "links": {
+        "website": "https://www.bellabeat.com",
+        "facebook": "https://www.facebook.com/bellabeat",
+        "twitter": "https://twitter.com/getbellabeat"
+      }
+    },
+    {
+      "id": 10,
+      "type": "L",
+      "time": "16.35— 17.20",
+      "location": "Palača Herzer",
+      "author": "Dea Vladilo",
+      "img": "Dea_Vladilo.jpg",
+      "author_desc": "Dea attended the Faculty of Political Science at the University of Zagreb, where she received her bachelor’s degree in Journalism. After working as a journalist for Vecernji list, a Croatian newspaper, Dea served her PR internship in Adris Group. She joined Bellabeat in September 2014. In 2015 they’ve attended CES (Consumer Electronics Show) in Las Vegas, US, and announced their top selling product, a health tracker for women, the LEAF. Aside from being Bellabeat’s spokesperson, Dea is responsible for the company’s public relations with journalists, bloggers, influencers and affiliate partners. Since its launch in May 2015 the LEAF by Bellabeat was sold in over 200k devices and received praise from Forbes, The Wall Street Journal, Techcrunch, Wired, Buzzfeed, VOGUE, Elle, Refinery29 and many others. The company’s products were sported by actress Mila Kunis, fashion blogger and model Chiara Ferragni and others. Dea defines her team as her family, her motto is: “Make it simple, but significant”.",
+      "title": "Women oriented technology",
+      "description": "We often hear how women are not really interested in tech products. Even though there’s a lot of discussion about the lack of women in tech as creators and developers of products, there is a little less constructive talk heard about women as users of technology. Obviously, less products are build with women in mind because there is less women involved in building them, but it is a huge misconception that women are not interested in technology, they’re just overlooked as users! Women today are actually the primary buyers and users of personal and household technology.",
+      "links": {
+        "website": "https://www.bellabeat.com",
+        "facebook": "https://www.facebook.com/bellabeat",
+        "twitter": "https://twitter.com/getbellabeat"
+      }
+    },
+    {
+      "id": 11,
+      "type": "L",
+      "time": "17.40— 18.25",
+      "location": "Palača Herzer",
+      "author": "Ivan Bjelajac",
+      "img": "Ivan_Bjelajac.jpg",
+      "author_desc": "I’m a UX/UI designer currently working at Five - a design drive app development agency. My responsibilities are user experience design, user interface design, branding, animation and so on. I care deeply about creating great digital products that focus on the user and when I do have some free time, it’s filled up with cooking, going to concerts and riding bikes. ",
+      "title": "Running a design sprint",
+      "description": "A design sprint is a five-day exercise that uses design methods to reduce risks when developing a product for a market. Through collaboration and generating ideas months of work are compressed into an intense week. At the end of it we test and validate any ideas and assumptions we have about the product we’re developing. What’s a design sprint and how do you run it? What’s the designers role and which tools does he use?",
+      "links": {
+        "website": "http://www.ibjelajac.com",
+        "dribble": "https://dribbble.com/ibjelajac"
+      }
+    },
+    {
+      "id": 12,
+      "type": "L",
+      "time": "17.40 — 18.25",
+      "location": "Palača Herzer",
+      "author": "Hrvoje Grubisic & Mario Šestak",
+      "img": ["Hrvoje_Grubisic.jpg", "Mario_Sestak.jpg"],
+      "author_desc": "Hrvoje is Head of Design at an award-winning independend digital production and marketing agency Degordian. He is selected to be a part of design jury for Awwwards 2015 & 2016. In addition to leading a team of young experts including designers, motion designers and front end developers, he is also the product designer at Mediatoolkit. At Degordian he is responsible for defining project specifications, creative direction and digital concepting.Mario is currently working as an Interactive Art Director in Degordian, an independent digital production & marketing agency. His major responsibilities include: planning, research, website analysis, wireframing, visual and interface design. With strong knowledge in technology and processes he also handles coordination with development (front end, backend), account team and content team.",
+      "title": "The value of interactive design",
+      "description": "Interactions and their design have long been a part of the design process of digital products, which is intended for customers and meeting their needs. Although often a hot topic of discussion, interaction design has certainly earned its place in creating a superior user experience, but what is its real value?",
+      "links": {
+        "website": "http://www.degordian.com/",
+        "dribble": "https://dribbble.com/degordian"
+      }
+    },
+    {
+      "id": 13,
+      "type": "L",
+      "time": "17.40 — 18.25",
+      "location": "Palača Herzer",
+      "author": "MOP",
+      "author_desc": "",
+      "title": "MOP dribble meetup",
+      "description": "",
+      "links": {
+      }
+    }
+  ]
+}

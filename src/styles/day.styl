@@ -1,8 +1,12 @@
+@import 's-grid-settings'
+// you can overwrite settings here
+@import 's-grid-functions'
 @import './colors'
 @import "./fonts"
 .day
   width: 100%
   float: left
+  margin-top:50px
   h3
     font-family: "DiaBlack"
     float: left
@@ -17,20 +21,44 @@
     margin-top: 70px
   .sessions
     float:left
-    width: 100%
+    .outer
+      max-height: 83px
+      overflow:hidden
+      border-bottom: 3px solid $blue
+      transition: max-height .3s
+      &.active
+        max-height: 500px
     .session
       padding: 25px 0
-      border-bottom: 3px solid $blue
+      grid()
       h4
         margin:0
         font-size:18px
         font-family: "DiaBlack"
+        cursor:pointer
       .time
-        float:left
-        width:200px
+        cell(2)
       .speaker
-        float: left
-        width: 350px
+        cell(4)
+        .type
+          width: 25px
+          height:25px
+          color:white
+          background: $blue
+          text-align:center
+          font-size:12px
+          line-height: 25px
+          border-radius: 12px
+          float:left
+          margin-top: -3px
+          margin-right: 10px
+        p
+          color: $grey
+          font-family: "DiaLight"
+          margin-top: 20px
       .desc
-        float:left
-        width: 560px
+        cell(6)
+        p
+          color: $grey
+          font-family: "DiaLight"
+          margin-top: 20px
