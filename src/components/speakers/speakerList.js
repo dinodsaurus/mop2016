@@ -5,7 +5,7 @@ class Speakers extends React.Component {
   renderItem(item, i) {
     return (<div className="item" key={i}>
       <div className="img">
-        <img src={`speakers/${item.img}`}/>
+        <img src={`speak/${item.img}`}/>
         <div className="bck"></div>
       </div>
       <h2>{item.author}</h2>
