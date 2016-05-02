@@ -93,7 +93,15 @@
       "time": "15.00 — 15.45",
       "location": "Palača Herzer",
       "author": "Marko Beljan & Zoran Šteković",
-      "img": ["Marko_Beljan.jpg", "Zoran_Stekovic.jpg"],
+      "img": [{
+        "author": "Marko Beljan",
+        "position": "Designer",
+        "img": "Marko_Beljan.jpg"
+      },{
+        "author": "Zoran Šteković",
+        "position": "Designer",
+        "img": "Zoran_Stekovic.png"
+      }],
       "author_desc": "Hi. I'm Tomislav. My passion lives with creation, with building something out of nothing; my chosen medium is computer software. I'm also a freelancer, a career path which allows me to be constantly challenged, to choose meaningful work, and to gather some flexibility in life.",
       "title": "Tales of Freelancing from Croatia",
       "description": "When you live in a small country, a country with an underdeveloped economy, strinving for exellence, those boundaries soon become a limiting factor. Overcoming those limitations might involve moving abroad physically for some, while for others it means just moving your mind and opening up to the world. Everyone makes their own choices, this will be a reflection of mine, and what they brought me; hoping they would inspire some of you to take the leap.",
@@ -136,22 +144,6 @@
       }
     },
     {
-      "id": 10,
-      "type": "L",
-      "time": "16.35— 17.20",
-      "location": "Palača Herzer",
-      "author": "Dea Vladilo",
-      "img": "Dea_Vladilo.jpg",
-      "author_desc": "Dea attended the Faculty of Political Science at the University of Zagreb, where she received her bachelor’s degree in Journalism. After working as a journalist for Vecernji list, a Croatian newspaper, Dea served her PR internship in Adris Group. She joined Bellabeat in September 2014. In 2015 they’ve attended CES (Consumer Electronics Show) in Las Vegas, US, and announced their top selling product, a health tracker for women, the LEAF. Aside from being Bellabeat’s spokesperson, Dea is responsible for the company’s public relations with journalists, bloggers, influencers and affiliate partners. Since its launch in May 2015 the LEAF by Bellabeat was sold in over 200k devices and received praise from Forbes, The Wall Street Journal, Techcrunch, Wired, Buzzfeed, VOGUE, Elle, Refinery29 and many others. The company’s products were sported by actress Mila Kunis, fashion blogger and model Chiara Ferragni and others. Dea defines her team as her family, her motto is: “Make it simple, but significant”.",
-      "title": "Women oriented technology",
-      "description": "We often hear how women are not really interested in tech products. Even though there’s a lot of discussion about the lack of women in tech as creators and developers of products, there is a little less constructive talk heard about women as users of technology. Obviously, less products are build with women in mind because there is less women involved in building them, but it is a huge misconception that women are not interested in technology, they’re just overlooked as users! Women today are actually the primary buyers and users of personal and household technology.",
-      "links": {
-        "website": "https://www.bellabeat.com",
-        "facebook": "https://www.facebook.com/bellabeat",
-        "twitter": "https://twitter.com/getbellabeat"
-      }
-    },
-    {
       "id": 11,
       "type": "L",
       "time": "17.40— 18.25",
@@ -172,7 +164,14 @@
       "time": "17.40 — 18.25",
       "location": "Palača Herzer",
       "author": "Hrvoje Grubisic & Mario Šestak",
-      "img": ["Hrvoje_Grubisic.jpg", "Mario_Sestak.jpg"],
+      "img": [
+        { "author": "Hrvoje Grubisic",
+          "position": "Designer",
+          "img": "Hrvoje_Grubisic.jpg"},
+        { "author": "Mario Šestak",
+          "position": "Designer",
+          "img": "Mario_Sestak.jpg"}
+      ],
       "author_desc": "Hrvoje is Head of Design at an award-winning independend digital production and marketing agency Degordian. He is selected to be a part of design jury for Awwwards 2015 & 2016. In addition to leading a team of young experts including designers, motion designers and front end developers, he is also the product designer at Mediatoolkit. At Degordian he is responsible for defining project specifications, creative direction and digital concepting.Mario is currently working as an Interactive Art Director in Degordian, an independent digital production & marketing agency. His major responsibilities include: planning, research, website analysis, wireframing, visual and interface design. With strong knowledge in technology and processes he also handles coordination with development (front end, backend), account team and content team.",
       "title": "The value of interactive design",
       "description": "Interactions and their design have long been a part of the design process of digital products, which is intended for customers and meeting their needs. Although often a hot topic of discussion, interaction design has certainly earned its place in creating a superior user experience, but what is its real value?",

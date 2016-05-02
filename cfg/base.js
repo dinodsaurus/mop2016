@@ -2,6 +2,7 @@
 let path = require('path');
 let defaultSettings = require('./defaults');
 let additionalPaths = [];
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   additionalPaths: additionalPaths,
   port: defaultSettings.port,
@@ -20,6 +21,9 @@ module.exports = {
     publicPath: defaultSettings.publicPath,
     noInfo: false
   },
+  plugins: [
+    new CopyWebpackPlugin([{ from: '../src/speakers' }])
+  ],
   resolve: {
     extensions: [
       '',

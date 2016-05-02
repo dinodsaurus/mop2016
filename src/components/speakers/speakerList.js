@@ -5,11 +5,11 @@ class Speakers extends React.Component {
   renderItem(item, i) {
     return (<div className="item" key={i}>
       <div className="img">
-        <img src={img}/>
+        <img src={`speakers/${item.img}`}/>
         <div className="bck"></div>
       </div>
-      <h2>Dino Trojak</h2>
-      <p>Majstor svoje struke</p>
+      <h2>{item.author}</h2>
+      <p>{item.position}</p>
     </div>);
   }
   render() {
