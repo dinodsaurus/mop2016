@@ -24,6 +24,13 @@ class Schedule extends React.Component {
       saturday: saturday.schedule
     };
   }
+  componentDidMount() {
+    if (this.props.params.day) {
+      this.activateDate(this.props.params.id, this.props.params.day);
+      const top = document.getElementById('wednesday5').getBoundingClientRect().top;
+      window.scroll(0, top);
+    }
+  }
   activateDate(id, d) {
     let day = this.state[d] || [];
     day.forEach(s => {

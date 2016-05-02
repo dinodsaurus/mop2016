@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router';
 import classnames from 'classnames';
 class Session extends React.Component {
   handleClick() {
@@ -15,10 +16,10 @@ class Session extends React.Component {
       type = <div className="type">{session.type}</div>
     }
     return (
-      <div className={cls}>
+      <div className={cls} id={`${this.props.dayFull}${this.props.session.id}`}>
         <div className="session group">
           <div className="time">
-            <h4 onClick={this.handleClick.bind(this)}>{session.time}</h4>
+            <Link to={{ pathname: '/schedule', query: { day: this.props.dayFull, id: this.props.session.id}}} onClick={this.handleClick.bind(this)}>{session.time}</Link>
           </div>
           <div className="speaker">
             {type}
