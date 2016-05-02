@@ -25,9 +25,10 @@ class Schedule extends React.Component {
     };
   }
   componentDidMount() {
-    if (this.props.params.day) {
-      this.activateDate(this.props.params.id, this.props.params.day);
-      const top = document.getElementById('wednesday5').getBoundingClientRect().top;
+    let { query } = this.props.location
+    if (query && query.id) {
+      this.activateDate(query.id, query.day);
+      const top = document.getElementById(query.day + query.id).getBoundingClientRect().top;
       window.scroll(0, top);
     }
   }
