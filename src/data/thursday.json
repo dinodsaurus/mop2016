@@ -51,7 +51,7 @@
       "id": 3,
       "type": "W",
       "time": "17.00 — 19.00",
-      "location": "Palača Herzer",
+      "location": "Rogoz",
       "author": "Marin Kereša",
       "img": "Marin_Keresa.png",
       "author_desc": "Marin Kereša, musician, producer and recording engineer, has been engaged in audio production and sound research for over ten years. Director and founder of audio/video production studio nuArs d.o.o., he leads the nuSynergetic NGO (whose goal is to promote, develop and improve alternative cultural creativity, innovative and experimental artistic practices and multidisciplinary approach in the field of culture and audio-visual and performing arts), he’s also the initiator and leader of nuArs Session (experimental, multidisciplinary artistic project).",
@@ -63,9 +63,30 @@
     },
     {
       "id": 4,
+      "type": "E",
+      "time": "19.00 — 19.30",
+      "locaiton": "Rogoz",
+      "author": "UNIN",
+      "title": "Mediapitch photo student exhibition"
+    },
+    {
+      "id": 5,
+      "type": "E",
+      "time": "19.35 — 19.45",
+      "author": "Vanima",
+      "location": "Kino galerija",
+      "author_desc": "VANIMA is one of the most active organizations in Varaždin as well as co-creator and participant of Varaždin's cultural policy.",
+      "title": "VAR-T-EKS",
+      "description": "Acronym VAR–T–EKS hides the project titled Varaždin experimental film factory done by Creative Film Studio VANIMA partnered by University North and Croatian Film Association to introduce experimental film to high school students and university students. Group of enthusiasts created their experimental works mentored by renowned author, Big Golden Arena winner, Damir Čučić, assisted by young student of the ADA Zagreb Marinko Marinkić. Head of the program is Hrvoje Selec from VANIMA while the program was mentored by Professor Robert Geček from MOP department of University North. Program was financially sponsored by the City of Varaždin and CAVC.",
+      "links": [{
+        "website": "http://www.vanima.hr/"
+      }]
+    },
+    {
+      "id": 6,
       "type": "M",
       "time": "17.00 — 19.00",
-      "location": "Palača Herzer",
+      "location": "Kino Galerija",
       "author": "Monika Rusak",
       "author_desc": "Monika Rusak was born 1991. in Varaždin. In 2013. she finished professional Graphical studies with emphasis in multimedia on the Polytechnic in Varaždin, acquired the title of bacc. ing. techn. graph.2013. - 2015. Academy of Applied Arts at the University of Rijeka, graduate study Media Arts and practices (course: Intermedia). Currently she is working as graphic editor at Varaždinske vijesti. Through three years of education at the Polytechnic in Varaždin , she intensely does photography as well as other media: video and sound.",
       "title": "Forever: a documentary-experimental film",

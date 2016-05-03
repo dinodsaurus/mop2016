@@ -20,6 +20,7 @@ class Session extends React.Component {
         <div className="session group">
           <div className="time">
             <Link to={{ pathname: '/schedule', query: { day: this.props.dayFull, id: this.props.session.id}}} onClick={this.handleClick.bind(this)}>{session.time}</Link>
+            <p>{session.location}</p>
           </div>
           <div className="speaker">
             {type}

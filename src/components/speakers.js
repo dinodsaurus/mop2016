@@ -5,7 +5,7 @@ import Title from './title';
 import img from '../images/header_img_speaker.jpg';
 import SpeakerList from './speakers/speakerList';
 
-import wednesday from '../data/wednesday.json';
+import monday from '../data/monday.json';
 import thursday from '../data/thursday.json';
 import friday from '../data/friday.json';
 import saturday from '../data/saturday.json';
@@ -16,7 +16,7 @@ class Speakers extends React.Component {
     let fri = friday.schedule;
     let sat = saturday.schedule;
     this.state = {
-      list: this.createList(wednesday.schedule.concat(thu, fri, sat))
+      list: this.createList(monday.schedule.concat(thu, fri, sat))
     }
   }
   createList(list) {

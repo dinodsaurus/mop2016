@@ -4,7 +4,7 @@ import Title from './title';
 import Day from './schedule/day';
 import img from '../images/header_img_schedule.jpg';
 
-import wednesday from '../data/wednesday.json';
+import monday from '../data/monday.json';
 import thursday from '../data/thursday.json';
 import friday from '../data/friday.json';
 import saturday from '../data/saturday.json';
@@ -18,7 +18,7 @@ class Schedule extends React.Component {
   constructor() {
     super();
     this.state = {
-      wednesday: wednesday.schedule,
+      monday: monday.schedule,
       thursday: thursday.schedule,
       friday: friday.schedule,
       saturday: saturday.schedule
@@ -50,7 +50,7 @@ class Schedule extends React.Component {
       <div className="schedule">
         <Title title="Schedule" bck={img}/>
         <div className="container group">
-          <Day img={wed} activateDate={this.activateDate.bind(this)} schedule={this.state.wednesday} day="WED" dayFull="wednesday"/>
+          <Day img={wed} activateDate={this.activateDate.bind(this)} schedule={this.state.monday} day="MON" dayFull="monday"/>
           <Day img={thu} activateDate={this.activateDate.bind(this)} schedule={this.state.thursday} day="THU" dayFull="thursday"/>
           <Day img={fri} activateDate={this.activateDate.bind(this)} schedule={this.state.friday} day="FRI" dayFull="friday"/>
           <Day img={sat} activateDate={this.activateDate.bind(this)} schedule={this.state.saturday} day="SAT" dayFull="saturday"/>

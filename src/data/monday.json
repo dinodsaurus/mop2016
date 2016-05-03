@@ -2,28 +2,17 @@
   "schedule": [
     {
       "id": 1,
-      "type": "",
+      "type": "O",
       "time": "19.00 — 19.30",
       "author": "MOP",
       "title": "Doors Open — Opening speech",
-      "location": "Kino Galerija"
-    },
-    {
-      "id": 2,
-      "type": "E",
-      "time": "19.30 — 19.45",
-      "author": "Vanima",
-      "author_desc": "VANIMA is one of the most active organizations in Varaždin as well as co-creator and participant of Varaždin's cultural policy.",
-      "title": "VAR-T-EKS",
-      "description": "Acronym VAR–T–EKS hides the project titled Varaždin experimental film factory done by Creative Film Studio VANIMA partnered by University North and Croatian Film Association to introduce experimental film to high school students and university students. Group of enthusiasts created their experimental works mentored by renowned author, Big Golden Arena winner, Damir Čučić, assisted by young student of the ADA Zagreb Marinko Marinkić. Head of the program is Hrvoje Selec from VANIMA while the program was mentored by Professor Robert Geček from MOP department of University North. Program was financially sponsored by the City of Varaždin and CAVC.",
-      "links": [{
-        "website": "http://www.vanima.hr/"
-      }]
+      "location": "Galerijski centar"
     },
     {
       "id": 3,
       "type": "E",
       "time": "19.45 — 20.00",
+      "location": "Galerijski centar",
       "author": "Dario Belić",
       "img": "Dario_Belic.png",
       "author_desc": "Freelance photographer and videographer, student of photography at Academy of Dramatic Art in Zagreb.",
@@ -38,18 +27,11 @@
       }]
     },
     {
-      "id": 4,
-      "type": "E",
-      "time": "20.00 — 20.30",
-      "author": "UNIN",
-      "title": "Mediapitch photo student exhibition"
-    },
-    {
       "id": 5,
       "type": "E",
       "time": "20.00 — 20.30",
       "author": "UNIN",
-      "title": "Design student exhibition"
+      "title": "Student design exhibition"
     },
     {
       "id": 6,
