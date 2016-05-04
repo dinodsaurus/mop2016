@@ -18,13 +18,13 @@
       "author_desc": "Freelance photographer and videographer, student of photography at Academy of Dramatic Art in Zagreb.",
       "title": "Where is the beginning of our private space?",
       "description": "Using unprotected, easily accessible IP cameras I capture people and situations in their private space. Behind the cameras are people, individuals who live their lives and do not even realize they are being watched.",
-      "links": [{
+      "links": {
         "website": "http://www.dbelic.com",
         "behance": "http://behance.net/dariobelic",
         "vimeo": "http://vimeo.com/dariobelic",
         "twitter": "http://twitter.com/dariobelic",
         "facebook": "http://facebook.com/dariobphotography/"
-      }]
+      }
     },
     {
       "id": 5,

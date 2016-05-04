@@ -5,8 +5,21 @@ class Session extends React.Component {
   handleClick() {
     this.props.activateDate(this.props.session.id, this.props.dayFull)
   }
+  renderLinks(session) {
+    if (!session.links) {
+      return [];
+    }
+    let links = [];
+    Object.keys(session.links).forEach(function(key, i) {
+      let link = <a key={i} target="_blank" href={session.links[key]}>{key}</a>
+      links.push(link);
+    });
+    return links;
+  }
   render() {
     const session = this.props.session;
+    const links = this.renderLinks(session)
+    let l = "";
     let type = '';
     var cls = classnames({
      'outer': true,
@@ -14,6 +27,9 @@ class Session extends React.Component {
     });
     if (session.type) {
       type = <div className="type">{session.type}</div>
+    }
+    if (links.length){
+      l = (<div className="links">{links}</div>);
     }
     return (
       <div className={cls} id={`${this.props.dayFull}${this.props.session.id}`}>
@@ -26,6 +42,7 @@ class Session extends React.Component {
             {type}
             <h4 onClick={this.handleClick.bind(this)}>{session.author}</h4>
             <p>{session.author_desc}</p>
+            {l}
           </div>
           <div className="desc">
             <h4 onClick={this.handleClick.bind(this)}>{session.title}</h4>
