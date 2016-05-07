@@ -15,7 +15,7 @@ class Schedule extends React.Component {
             <h2>MOP ŠPANCIRFEST
                 is a multimedia festival.
             </h2>
-            <p>Program festivala obuhvaća predavanja, tjedne radionice, izložbe, video projekcije, interaktivne instalacije, performanse, filmske projekcije te audio-vizualne instalacije integrirane u njegov glazbeni dio. Od ove godine partner Udruge MOP i suorganizator festivala multimedije je Turistička zajednica grada Varaždina (TZGV).</p>
+            <p>The festival is free and includes lectures, weekly workshops, exhibitions, video screenings, interactive installations, performances, films and audio-visual installations integrated into his music part. Starting this year, partner of MOP Association and co-organizer of multimedia festival is Varaždin Tourist Board. Festival program is free.</p>
           </div>
           <img src={img1}/>
           <div className="section">
@@ -23,7 +23,7 @@ class Schedule extends React.Component {
               <h3>History</h3>
             </div>
             <div className="item">
-              <p>Festival je do danas održan 4 puta kao godišnji regionalni festival kroz koji se promiče multimedija i digitalna kultura s naglaskom na razmjenu znanja i kreativno korištenje novih tehnologija u umjetnosti, znanosti i dizajnu.</p>
+              <p>The festival has so far held four times as annual regional festival through which promotes the multimedia and digital culture, with an emphasis on exchange of knowledge and creative use of new technologies in art, science and design.</p>
               <div className="small">
                 <h4>Past editions</h4>
                 <a href="http://2013.mop-fest.com/">13</a>
@@ -38,7 +38,7 @@ class Schedule extends React.Component {
               <h3>Location</h3>
             </div>
             <div className="item">
-              <p>Festival je do danas održan 4 puta kao godišnji regionalni festival kroz koji se promiče multimedija i digitalna kultura s naglaskom na razmjenu znanja i kreativno korištenje novih tehnologija u umjetnosti, znanosti i dizajnu.</p>
+              <p>The festival has so far held four times as annual regional festival through which promotes the multimedia and digital culture, with an emphasis on exchange of knowledge and creative use of new technologies in art, science and design.</p>
               <div className="small grid">
                 <div className="half">
                   <h4>Venues</h4>

@@ -16,7 +16,7 @@ class Sponsors extends React.Component {
           <di className="text">
             <p className="small">Big</p>
             <p className="big">Tnx</p>
-            <p className="desc">As a community, we have always prided ourselves on crafting great conference experiences and we wouldn’t be able to do this without the generous support of sponsors. We’re very pleased to present to you the organisations supporting MOP ŠPANCIRFEST 2016:</p>
+            <p className="desc">Many thanks to all who support us and without whom the festival would not exist. As a small organizers special thank you for the financial support goes to Varaždin Tourist Board, Student Union of the University North and our sponsors without whom this festival would not be realized.</p>
           </di>
         </div>
       </div>
