@@ -5,7 +5,8 @@ import { Link } from 'react-router'
 class Footer extends React.Component {
   render() {
     let link = '';
-    if( this.props.link ) {
+    const path = document.location.pathname;
+    if( path !== '/schedule') {
       link = (
         <div className="container group">
           <div className="program">

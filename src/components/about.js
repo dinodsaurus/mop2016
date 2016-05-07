@@ -1,6 +1,6 @@
 import '../styles/about.styl'
 import React from 'react';
-import Title from './title'
+import Paralax from './paralax/paralax'
 import img1 from '../images/about.png';
 import img2 from '../images/about2.png';
 import img3 from '../images/about3.png';
@@ -9,7 +9,7 @@ class Schedule extends React.Component {
   render() {
     return (
       <div className="about">
-        <Title title="About"/>
+        <Paralax/>
         <div className="container group">
           <div className="titleTxt">
             <h2>MOP ŠPANCIRFEST
@@ -26,10 +26,9 @@ class Schedule extends React.Component {
               <p>Festival je do danas održan 4 puta kao godišnji regionalni festival kroz koji se promiče multimedija i digitalna kultura s naglaskom na razmjenu znanja i kreativno korištenje novih tehnologija u umjetnosti, znanosti i dizajnu.</p>
               <div className="small">
                 <h4>Past editions</h4>
-                <a>12</a>
-                <a>13</a>
-                <a>14</a>
-                <a>15</a>
+                <a href="http://2013.mop-fest.com/">13</a>
+                <a href="http://2014.mop-fest.com/">14</a>
+                <a href="http://2013.mop-fest.com/">15</a>
               </div>
             </div>
           </div>
@@ -43,23 +42,23 @@ class Schedule extends React.Component {
               <div className="small grid">
                 <div className="half">
                   <h4>Venues</h4>
-                  <a>Hrvatsko narodno kazalište u Varaždinu</a>
+                  <a href="https://www.google.hr/maps/place/HRVATSKO+NARODNO+KAZALI%C5%A0TE+U+VARA%C5%BDDINU/@46.3057008,16.3351257,17z/data=!3m1!4b1!4m2!3m1!1s0x4768aad0b4d1687f:0x45ba01edd71338f6?shorturl=1">Croatian National Theatre in Varaždin</a>
+                  <h4>Venues</h4>
+                  <a href="https://goo.gl/maps/qByKtYiow162">Palača Herzer</a>
                   <h4>Food</h4>
-                  <a>Anglesu restourant</a>
+                  <a href="https://goo.gl/maps/rzuxxCTZYZ12">Anglesu restourant</a>
                   <h4>Sleep</h4>
-                  <a>Hostel Varaždin</a>
-                  <h4>Sleep</h4>
-                  <a>Hostel Maltar</a>
+                  <a href="http://www.tourism-varazdin.hr/en/accommodation/">City Hostels</a>
                 </div>
                 <div className="half">
                   <h4>Party</h4>
-                  <a>Podrumska scena Zvonimr Rogoz</a>
+                  <a href="https://www.facebook.com/scenarogoz/">Podrumska scena Zvonimr Rogoz</a>
                   <h4>Food</h4>
-                  <a>Santa Maria</a>
-                  <h4>Sleep</h4>
-                  <a>Hotel Adria</a>
-                  <h4>Sleep</h4>
-                  <a>Hotel Turist</a>
+                  <a href="https://goo.gl/maps/zy52JmjjJZG2">Santa Maria</a>
+                  <h4>Caffe</h4>
+                  <a href="http://www.tourism-varazdin.hr/en/cafes-and-pastry-shops/">Caffe</a>
+                  <h4>Museum</h4>
+                  <a href="http://www.tourism-varazdin.hr/en/museums-and-collections/">Museums and collections</a>
                 </div>
               </div>
             </div>
@@ -72,22 +71,22 @@ class Schedule extends React.Component {
             <div className="item">
               <div className="small grid team">
                 <div className="half">
-                  <h4>Organizatori</h4>
+                  <h4>Organizators</h4>
                   <p>Udruga MOP</p>
                   <p>Turistička zajednica grada Varaždina</p>
-                  <h4>Uži organizacijski tim</h4>
+                  <h4>Head organizational team</h4>
                   <p>Fran Mubrin, kreaticni i art direktor</p>
                   <p>Mihael Miklošić, koordinator projekta</p>
                   <p>Oliver Potočnik, koordinator projekta</p>
-                  <h4>Programska suradnja</h4>
+                  <h4>Festival program associates</h4>
                   <p>Marijo Janković</p>
                   <p>Dino Trojak</p>
-                  <h4>Vizualni identitet</h4>
+                  <h4>Visual identety</h4>
                   <p>Marko Hrastovec</p>
                   <p>Fran Mubrin(web)</p>
                 </div>
                 <div className="half">
-                  <h4>Web programing</h4>
+                  <h4>Web development</h4>
                   <p>Dino Trojak</p>
                   <h4>Contact</h4>
                   <p>mopfest@gmail.com</p>
