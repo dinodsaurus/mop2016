@@ -8,7 +8,7 @@
       "author": "JavaScript Zagreb",
       "img": [{
         "author": "Dino Trojak",
-        "position": "Software Engineer",
+        "position": "Developer at Two Bucks",
         "img":"Dino_Trojak.jpg"
       }],
       "author_desc": "A monthly meetup of JavaScript developer enthusiasts from Zagreb and region.",
@@ -28,15 +28,15 @@
       "author": "404 Agency",
       "img": [{
         "author": "Tom Palinić",
-        "position": "Copywriter",
+        "position": "Copywriter at 404",
         "img": "Tom_Palinic.jpg"
       },{
         "author": "Jakov Koščak",
-        "position": "Designer",
+        "position": "Designer at 404",
         "img": "Jakov_Koscak.jpg"
       },{
         "author": "Ivor Delić",
-        "position": "Designer",
+        "position": "Multimedia developer at 404",
         "img": "Ivor_Delic.jpg"
       }
       ],
@@ -53,6 +53,7 @@
       "time": "17.00 — 19.00",
       "location": "Palace Herzer",
       "author": "Marin Kereša",
+      "position": "CEO at nuArs",
       "img": "Marin_Keresa.png",
       "author_desc": "Marin Kereša, musician, producer and recording engineer, has been engaged in audio production and sound research for over ten years. Director and founder of audio/video production studio nuArs d.o.o., he leads the nuSynergetic NGO (whose goal is to promote, develop and improve alternative cultural creativity, innovative and experimental artistic practices and multidisciplinary approach in the field of culture and audio-visual and performing arts), he’s also the initiator and leader of nuArs Session (experimental, multidisciplinary artistic project).",
       "title": " Audio signal flow in music production",
