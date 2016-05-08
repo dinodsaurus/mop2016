@@ -20,7 +20,7 @@ class Header extends React.Component {
           <li><Link onClick={this.translate.bind(this)} to="/schedule">Schedule</Link></li>
           <li><Link onClick={this.translate.bind(this)} to="/speakers">Speakers</Link></li>
           <li><a href="http://spancirfest.com/" target="_blank">Špancirfest</a></li>
-          <li><Link onClick={this.translate.bind(this)} to="/sponsors">Sponsors</Link></li>
+          <li><Link onClick={this.translate.bind(this)} to="/partners">Partners</Link></li>
           <li><Link onClick={this.translate.bind(this)} to="/about">About us</Link></li>
           <li><a target="_blank" href="https://www.facebook.com/events/456606194525596/">RSVP</a></li>
         </ul>

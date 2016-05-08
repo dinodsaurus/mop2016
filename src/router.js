@@ -17,7 +17,7 @@ const router = () => {
         <IndexRoute component={Home} />
         <Route path="schedule" component={Schedule}/>
         <Route path="speakers" component={Speakers}/>
-        <Route path="sponsors" component={Sponsors}/>
+        <Route path="partners" component={Sponsors}/>
         <Route path="about" component={About}/>
       </Route>
     </Router>

@@ -6,13 +6,13 @@
       "time": "19.00 — 19.30",
       "author": "MOP",
       "title": "Doors Open — Opening speech",
-      "location": "Galerijski centar"
+      "location": "Gallery Center Varaždin"
     },
     {
       "id": 3,
       "type": "E",
       "time": "19.45 — 20.00",
-      "location": "Galerijski centar",
+      "location": "Gallery Center Varaždin",
       "author": "Dario Belić",
       "img": "Dario_Belic.png",
       "author_desc": "Freelance photographer and videographer, student of photography at Academy of Dramatic Art in Zagreb.",
@@ -27,10 +27,27 @@
       }
     },
     {
+      "id": 4,
+      "type": "E",
+      "time": "19.30 — 19.45",
+      "location": "Gallery Center Varaždin",
+      "author": "UNIN",
+      "title": "Mediapitch photo student exhibition"
+    },
+    {
+      "id": 4,
+      "type": "E",
+      "time": "20.00 — 20.30",
+      "location": "Gallery Center Varaždin",
+      "author": "Vana Gaćina",
+      "title": "Vestigum"
+    },
+    {
       "id": 5,
       "type": "E",
       "time": "20.00 — 20.30",
       "author": "UNIN",
+      "location": "Gallery Center Varaždin",
       "title": "Student design exhibition"
     },
     {
@@ -38,6 +55,7 @@
       "type": "E",
       "time": "20.00 — 20.30",
       "author": "UNIN",
+      "location": "Gallery Center Varaždin",
       "title": "Student project: Submarine"
     },
     {
@@ -46,6 +64,7 @@
       "location": "Scena & Bar Rogoz",
       "time": "20.30 — 00.00",
       "author": "",
+      "location": "Gallery Center Varaždin",
       "title": "Music and Networking"
     }
 

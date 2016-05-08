@@ -38,7 +38,6 @@ class Header extends React.Component {
     }
     return (
       <div className="header">
-        <div className="container group">
           <h1>MOP<br/>
           ŠPANCIRFEST<br/>
           Multimedia festival<br/>
@@ -48,7 +47,6 @@ class Header extends React.Component {
           <div className="double"></div>
           <a className="menuLink" onClick={this.showMenu.bind(this)}>{text}</a>
           <Menu noAnimation={this.state.noAnimation} active={this.state.showMenu} exiting={this.state.exiting} moveUp={this.moveUp.bind(this)}/>
-        </div>
         </div>
       </div>
     );
