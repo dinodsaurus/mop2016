@@ -3,7 +3,9 @@ import {Link} from 'react-router';
 import classnames from 'classnames';
 class Session extends React.Component {
   handleClick() {
-    this.props.activateDate(this.props.session.id, this.props.dayFull)
+    if (this.props.session.description) {
+      this.props.activateDate(this.props.session.id, this.props.dayFull)
+    }
   }
   renderLinks(session) {
     if (!session.links) {
@@ -33,19 +35,23 @@ class Session extends React.Component {
     }
     return (
       <div className={cls} id={`${this.props.dayFull}${this.props.session.id}`}>
+        <Link className="link" to={{ pathname: '/schedule', query: { day: this.props.dayFull, id: this.props.session.id}}} onClick={this.handleClick.bind(this)}></Link>
         <div className="session group">
           <div className="time">
-            <Link to={{ pathname: '/schedule', query: { day: this.props.dayFull, id: this.props.session.id}}} onClick={this.handleClick.bind(this)}>{session.time}</Link>
+            <h5>OPENING</h5>
+            <h4>{session.time}</h4>
             <p>{session.location}</p>
           </div>
           <div className="speaker">
+            <h5>SPEAKER</h5>
             {type}
-            <h4 onClick={this.handleClick.bind(this)}>{session.author}</h4>
+            <h4>{session.author}</h4>
             <p>{session.author_desc}</p>
             {l}
           </div>
           <div className="desc">
-            <h4 onClick={this.handleClick.bind(this)}>{session.title}</h4>
+            <h5>DESCRIPTION</h5>
+            <h4>{session.title}</h4>
             <p>{session.description}</p>
           </div>
         </div>
