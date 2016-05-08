@@ -1,6 +1,7 @@
 import '../styles/sponsors.styl'
 import React from 'react';
 import SponsorList from './sponsors/sponsorList';
+import Title from './title'
 
 class Sponsors extends React.Component {
   constructor() {
@@ -99,6 +100,7 @@ class Sponsors extends React.Component {
   render() {
     return (
       <div className='sponsors'>
+        <Title title="Sponsors"/>
         <div className='container'>
           <SponsorList title='Main Partners' size={3} list={this.state.main}/>
           <SponsorList title='Partners' size={4} list={this.state.partners}/>

@@ -68,14 +68,14 @@ class Paralax extends React.Component {
           <Element img={m} ele="m" scroll={this.state.scroll} startPosition={this.state.elements.m} speed={3.5}/>
           <Element img={o} ele="o" scroll={this.state.scroll} startPosition={this.state.elements.o} speed={2.5}/>
           <Element img={p} ele="p" scroll={this.state.scroll} startPosition={this.state.elements.p} speed={2}/>
-          <Element img={arrow} ele="arrow" scroll={this.state.scroll} startPosition={this.state.elements.arrow} speed={1}/>
-          <Element img={hand} ele="hand" scroll={this.state.scroll} startPosition={this.state.elements.hand} speed={2.5}/>
+          <Element img={arrow} ele="arrow" scroll={this.state.scroll} startPosition={this.state.elements.arrow} speed={2}/>
+          <Element img={hand} ele="hand" scroll={this.state.scroll} startPosition={this.state.elements.hand} speed={2}/>
           <Element img={ribon} ele="ribon" scroll={this.state.scroll} startPosition={this.state.elements.ribon} speed={2}/>
-          <Element img={spancir} ele="spancir" scroll={this.state.scroll} startPosition={this.state.elements.spancir} speed={1.5}/>
+          <Element img={spancir} ele="spancir" scroll={this.state.scroll} startPosition={this.state.elements.spancir} speed={2}/>
           <Element img={varazdin} ele="varazdin" scroll={this.state.scroll} startPosition={this.state.elements.varazdin} speed={2}/>
-          <Element img={www} ele="www" scroll={this.state.scroll} startPosition={this.state.elements.www} speed={1.7}/>
-          <Element img={line} ele="line" scroll={this.state.scroll} startPosition={this.state.elements.line} speed={1.5}/>
-          <Element img={mopribon} ele="mopribon" scroll={this.state.scroll} startPosition={this.state.elements.mopribon} speed={2.2}/>
+          <Element img={www} ele="www" scroll={this.state.scroll} startPosition={this.state.elements.www} speed={2}/>
+          <Element img={line} ele="line" scroll={this.state.scroll} startPosition={this.state.elements.line} speed={2}/>
+          <Element img={mopribon} ele="mopribon" scroll={this.state.scroll} startPosition={this.state.elements.mopribon} speed={2}/>
         </div>
       </div>
     );
