@@ -5,12 +5,14 @@ class Sponsors extends React.Component {
     const s = this.props.size;
     const size = classNames({
       'item': true,
+      'big': item.big,
+      'smallerHeight': s === 4,
       'four': s === 4,
       'three': s === 3
     });
-    return (<div className={size} key={i}>
-      DInek
-    </div>);
+    return (<a target="blank" href={item.link} className={size} key={i}>
+      <img src={`images/${item.img}`}/>
+    </a>);
   }
   render() {
     return (

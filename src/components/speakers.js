@@ -2,7 +2,6 @@ import '../styles/speakers.styl';
 
 import React from 'react';
 import SpeakerList from './speakers/speakerList';
-import Paralax from './paralax/paralax';
 
 import monday from '../data/monday.json';
 import thursday from '../data/thursday.json';
@@ -54,7 +53,6 @@ class Speakers extends React.Component {
   render() {
     return (
       <div className="speakers">
-        <Paralax/>
         <div className="container">
           <SpeakerList list={this.state.list}/>
         </div>

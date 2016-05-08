@@ -1,8 +1,6 @@
 import '../styles/home.styl';
 import React from 'react';
 
-import Paralax from './paralax/paralax';
-
 import workshops from '../images/workshops_home.svg';
 import lectures from '../images/lectures_home.svg';
 import exhibitions from '../images/exibition_home.svg';
@@ -16,7 +14,6 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="home">
-        <Paralax/>
         <div className="container">
           <div className="workshops">
             <img src={workshops}/>

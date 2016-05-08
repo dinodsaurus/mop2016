@@ -3,7 +3,6 @@ import React from 'react';
 import Title from './title';
 import Day from './schedule/day';
 import img from '../images/header_img_schedule.jpg';
-import Paralax from './paralax/paralax';
 
 import monday from '../data/monday.json';
 import thursday from '../data/thursday.json';
@@ -49,7 +48,6 @@ class Schedule extends React.Component {
   render() {
     return (
       <div className="schedule">
-        <Paralax/>
         <div className="container group">
           <Day img={wed} activateDate={this.activateDate.bind(this)} schedule={this.state.monday} day="MON" dayFull="monday"/>
           <Day img={thu} activateDate={this.activateDate.bind(this)} schedule={this.state.thursday} day="THU" dayFull="thursday"/>

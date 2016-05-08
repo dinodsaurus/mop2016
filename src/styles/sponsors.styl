@@ -3,6 +3,7 @@
 @import 's-grid-functions'
 @import './colors'
 .sponsors
+  padding-top: 2000px
   .text
     float: left
     width: 100%
@@ -30,8 +31,23 @@
 .partners
     grid()
     .item
-      height: 150px
-      background: $blue
+      position: relative
+      height: 320px
+      background: #fafafa
+      &.smallerHeight
+        height: 270px
+      &.big
+        img
+          max-width: 150px
+      img
+        position: absolute
+        display:block
+        margin: auto
+        top:0
+        bottom: 0
+        left: 0
+        right: 0
+        max-width: 100px
       &:first-child
         margin-left: 0
       &.four
