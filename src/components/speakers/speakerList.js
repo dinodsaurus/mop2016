@@ -1,16 +1,16 @@
 import React from 'react';
-import img from '../../images/test.jpg';
+import {Link} from 'react-router';
 
 class Speakers extends React.Component {
   renderItem(item, i) {
-    return (<div className="item" key={i}>
+    return (<Link to={{ pathname: '/schedule', query: { day: item.day, id: item.id}}}  className="item" key={i}>
       <div className="img">
         <img src={`speak/${item.img}`}/>
         <div className="bck"></div>
       </div>
       <h2>{item.author}</h2>
       <p>{item.position}</p>
-    </div>);
+    </Link>);
   }
   render() {
     return (

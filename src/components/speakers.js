@@ -10,12 +10,19 @@ import saturday from '../data/saturday.json';
 class Speakers extends React.Component {
   constructor() {
     super();
-    let thu = thursday.schedule;
-    let fri = friday.schedule;
-    let sat = saturday.schedule;
+    let mon = this.parseDay(monday.schedule, 'monday');
+    let thu = this.parseDay(thursday.schedule, 'thursday');
+    let fri = this.parseDay(friday.schedule, 'friday');
+    let sat = this.parseDay(saturday.schedule, 'saturday');
     this.state = {
-      list: this.createList(monday.schedule.concat(thu, fri, sat))
+      list: this.createList(mon.concat(thu, fri, sat))
     }
+  }
+  parseDay(items, day) {
+    items.forEach(i => {
+      i.day = day;
+    })
+    return items;
   }
   createList(list) {
     let newList = [];

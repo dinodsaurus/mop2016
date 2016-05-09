@@ -12,7 +12,7 @@ import About from './components/about';
 
 const router = () => {
   return (
-    <Router history={browserHistory}>
+    <Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
         <Route path="schedule" component={Schedule}/>
