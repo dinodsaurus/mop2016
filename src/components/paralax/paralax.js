@@ -41,12 +41,15 @@ class Paralax extends React.Component {
   }
 
   componentWillUnmount() {
+    console.log("unmounting");
     window.removeEventListener('scroll', this.handleScroll.bind(this));
   }
 
   handleScroll() {
     const scroll = this.getScroll();
-    this.setState({scroll: scroll[1]});
+    if (this.setState) {
+      this.setState({scroll: scroll[1]});
+    }
   }
 
   getScroll() {

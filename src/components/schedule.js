@@ -37,6 +37,9 @@ class Schedule extends React.Component {
         window.scroll(0, top);
       }, 100)
     }
+    if (query.type) {
+      this.changeFilter(query.type, query.type.substring(0,1));
+    }
   }
   activateDate(id, d) {
     let day = this.state[d] || [];

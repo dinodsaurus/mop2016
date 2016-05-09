@@ -1,5 +1,6 @@
 import '../styles/home.styl';
 import React from 'react';
+import {Link} from 'react-router';
 import Section from './home/section';
 
 import workshops from '../images/workshops_home.svg';
@@ -16,20 +17,21 @@ import exibitionPic from '../images/img_home_exhibitions_1.png';
 import exibitionPic2 from '../images/img_home_exhibitions_2.png';
 
 class AppComponent extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       scroll: 0
     }
+    this.scroll = this.scroll.bind(this)
   }
   componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll.bind(this));
+    window.addEventListener('scroll', this.scroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll.bind(this));
+    window.removeEventListener('scroll', this.scroll);
   }
-  handleScroll() {
+  scroll() {
     const scroll = this.getScroll();
     this.setState({scroll: scroll[1]});
   }
@@ -46,11 +48,17 @@ class AppComponent extends React.Component {
   }
   render() {
     return (
-      <div className="home">
-        <div className="container">
-          <Section title={workshops} img1={workshopPic} img2={workshopPic2} scroll={this.state.scroll} start={1400}/>
-          <Section title={lectures} img1={lecturesPic} img2={lecturesPic2} scroll={this.state.scroll} start={1400} imgStart={3000}/>
-          <Section title={exhibitions} img1={exibitionPic} img2={exibitionPic2} scroll={this.state.scroll} start={1400}/>
+      <div className='home'>
+        <div className='container'>
+          <Link to={{ pathname: '/schedule', query: { type: 'Workshop'}}}>
+            <Section title={workshops} img1={workshopPic} img2={workshopPic2} scroll={this.state.scroll} start={1400}/>
+          </Link>
+          <Link to={{ pathname: '/schedule', query: { type: 'Lectures'}}}>
+            <Section title={lectures} img1={lecturesPic} img2={lecturesPic2} scroll={this.state.scroll} start={1400} imgStart={3000}/>
+          </Link>
+          <Link to={{ pathname: '/schedule', query: { type: 'Exhibition'}}}>
+            <Section title={exhibitions} img1={exibitionPic} img2={exibitionPic2} scroll={this.state.scroll} start={1400}/>
+          </Link>
         </div>
       </div>
     );
