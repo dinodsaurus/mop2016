@@ -30,6 +30,7 @@ class Speakers extends React.Component {
       if (l.img) {
         if(l.img.constructor === Array) {
           l.img.forEach(i => {
+            i.id = l.id
             newList.push(i);
           })
         } else {
