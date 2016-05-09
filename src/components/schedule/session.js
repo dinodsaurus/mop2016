@@ -2,7 +2,8 @@ import React from 'react';
 import {Link} from 'react-router';
 import classnames from 'classnames';
 class Session extends React.Component {
-  handleClick() {
+  handleClick(e) {
+    e.preventDefault();
     if (this.props.session.description) {
       this.props.activateDate(this.props.session.id, this.props.dayFull)
     }
@@ -35,7 +36,7 @@ class Session extends React.Component {
     }
     return (
       <div className={cls} id={`${this.props.dayFull}${this.props.session.id}`}>
-        <Link className="link" to={{ pathname: '/schedule', query: { day: this.props.dayFull, id: this.props.session.id}}} onClick={this.handleClick.bind(this)}></Link>
+        <Link className="link" onUpdate={console.log("update")} to={{ pathname: '/schedule', query: { day: this.props.dayFull, id: this.props.session.id}}} onClick={this.handleClick.bind(this)}></Link>
         <div className="session group">
           <div className="time">
             <h5>OPENING</h5>
