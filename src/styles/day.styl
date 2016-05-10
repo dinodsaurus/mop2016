@@ -7,6 +7,8 @@
   width: 100%
   float: left
   margin-top:50px
+  &:first-child
+    margin-top: 25px
   h3
     font-family: "DiaBlack"
     float: left
@@ -31,9 +33,12 @@
         border-top: 3px solid $blue
       &.active
         max-height: 800px
+        .link
+          &:hover
+            opacity: 0
         .session
           h5
-            height: 24px
+            height: 34px
     .link
       position:absolute
       width: 100%
@@ -52,7 +57,7 @@
       transition: all .3
       h5
         font-size: 12px
-        color: $grey
+        color: $blue
         height: 0
         overflow: hidden
         transition: height .3s
@@ -72,6 +77,8 @@
           margin-top:25px
       .speaker
         cell(4)
+        h5
+          padding-left: 35px
         .type
           width: 25px
           height:25px
@@ -88,15 +95,15 @@
           padding-left: 35px
         .links
           position:relative
-          margin-top: 10px
-          padding-top: 10px
+          margin-top: 20px
+          padding-top: 20px
           padding-left: 35px
           &:before
             content:""
             position:absolute
             top:0
             left: 35px
-            width: calc(100% - 30px)
+            width: calc(100% - 45px)
             height: 3px
             background: $blue
         a
