@@ -1,7 +1,8 @@
 import '../styles/home.styl';
 import React from 'react';
-import {Link} from 'react-router';
 import Section from './home/section';
+import {browserHistory} from 'react-router';
+import Loading from 'stores/loading';
 
 import workshops from '../images/workshops_home.svg';
 import lectures from '../images/lectures_home.svg';
@@ -46,19 +47,26 @@ class AppComponent extends React.Component {
     return [sx, sy];
    }
   }
+  goTo(type) {
+    Loading.dispatch({type: 'LOADING'});
+    setTimeout(() => {
+      browserHistory.push(`schedule?type=${type}`)
+      Loading.dispatch({type: 'NOLOADING'});
+    }, 700);
+  }
   render() {
     return (
       <div className='home'>
         <div className='container'>
-          <Link to={{ pathname: '/schedule', query: { type: 'Workshop'}}}>
+          <a onClick={this.goTo.bind(this, 'Workshops')}>
             <Section title={workshops} img1={workshopPic} img2={workshopPic2} scroll={this.state.scroll} start={1400}/>
-          </Link>
-          <Link to={{ pathname: '/schedule', query: { type: 'Lectures'}}}>
+          </a>
+          <a onClick={this.goTo.bind(this, 'Lectures')}>
             <Section title={lectures} img1={lecturesPic} img2={lecturesPic2} scroll={this.state.scroll} start={1400} imgStart={3000}/>
-          </Link>
-          <Link to={{ pathname: '/schedule', query: { type: 'Exhibition'}}}>
+          </a>
+          <a onClick={this.goTo.bind(this, 'Exhibitions')}>
             <Section title={exhibitions} img1={exibitionPic} img2={exibitionPic2} scroll={this.state.scroll} start={1400}/>
-          </Link>
+          </a>
         </div>
       </div>
     );

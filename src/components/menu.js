@@ -1,10 +1,21 @@
 import '../styles/menu.styl';
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 import classNames from 'classnames';
+
+import Loading from 'stores/loading';
+
 class Header extends React.Component {
   translate() {
     this.props.moveUp()
+  }
+  goTo() {
+    this.props.moveUp()
+    Loading.dispatch({type: 'LOADING'});
+    setTimeout(() => {
+      browserHistory.push(`schedule`)
+      Loading.dispatch({type: 'NOLOADING'});
+    }, 700);
   }
   render() {
     var menuCls = classNames({
@@ -17,7 +28,7 @@ class Header extends React.Component {
       <div className={menuCls}>
         <ul>
           <li><Link onClick={this.translate.bind(this)} to="/">Home</Link></li>
-          <li><Link onClick={this.translate.bind(this)} to="/schedule">Schedule</Link></li>
+          <li><a onClick={this.goTo.bind(this)} to="/schedule">Schedule</a></li>
           <li><Link onClick={this.translate.bind(this)} to="/speakers">Speakers</Link></li>
           <li><a href="http://spancirfest.com/" target="_blank">Špancirfest</a></li>
           <li><Link onClick={this.translate.bind(this)} to="/partners">Partners</Link></li>

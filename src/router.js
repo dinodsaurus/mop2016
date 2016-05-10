@@ -27,8 +27,8 @@ const router = () => {
   return (
     <Router history={browserHistory} onUpdate={postponeUpdate}>
       <Route path='/' component={App}>
-        <IndexRoute component={Home} />
-        <Route path='schedule' component={Schedule} onEnter={startLoading}/>
+        <IndexRoute component={Home}/>
+        <Route path='schedule' component={Schedule}/>
         <Route path='speakers' component={Speakers} onEnter={startLoading}/>
         <Route path='partners' component={Sponsors} onEnter={startLoading}/>
         <Route path='about' component={About} onEnter={startLoading}/>
