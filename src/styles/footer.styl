@@ -1,13 +1,21 @@
 @import "./colors"
+@import "./mixins"
 .footer
   margin: 80px 0
+  @media phone
+    padding: 0 20px
   .program
     position:relative
-    width: 100%
     height: 200px
+    width: 100%
     border: 5px solid $blue
     margin: 100px 0
     overflow:hidden
+    @media phone
+      margin: 0
+      height: 100px
+      margin-bottom: 30px
+      line-height: 80px
     &:hover
       .hand
         right: -100px
@@ -15,6 +23,8 @@
         left: 20px
       a
         padding-left: 120px
+        @media phone
+          padding-left: 0
     a
       position: absolute
       display: block
@@ -26,6 +36,10 @@
       font-size:48px
       margin: 0
       transition: all .3s
+      @media phone
+        padding: 10px
+        font-size: 20px
+        text-align:center
     .hand
       position:absolute
       right: 70px
@@ -35,6 +49,8 @@
       background: url("../images/hand_icon.svg")
       background-size: 100%
       transition: all .3s
+      @media phone
+        hideOn(phone)
     .hand2
       content: ""
       position:absolute
@@ -45,6 +61,8 @@
       background: url("../images/hand_icon.svg")
       background-size: 100%
       transition: all .3s
+      @media phone
+        hideOn(phone)
   .txt
     float:left
     font-size: 17px
@@ -56,6 +74,10 @@
     margin-top: 14px
   ul
     float: right
+    @media phone
+      float:left
+      width: 100%
+      margin-top: 20px
     li
       position:relative;
       list-style:none
@@ -63,6 +85,9 @@
       width: 40px
       height: 40px
       margin-right:20px;
+      transition: opacity .3s
+      &:hover
+        opacity: .8
       &:last-child
         margin: 0
       &.facebook

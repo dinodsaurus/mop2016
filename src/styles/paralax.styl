@@ -1,6 +1,12 @@
+@import "./mixins.styl"
 .paralax
+  hideOn(phone)
   position:fixed
   top: 0
+.mobileImg
+  showOn(phone)
+  img
+    width: 100%
 .element
   position:absolute;
   &.arrow2

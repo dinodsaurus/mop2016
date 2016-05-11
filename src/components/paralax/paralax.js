@@ -13,6 +13,7 @@ import varazdin from '../../images/vz.png';
 import www from '../../images/www.png';
 import line from '../../images/line.png';
 import mopribon from '../../images/mop_ribbon.png';
+import mobileImage from '../../images/mobile_img.png';
 
 class Paralax extends React.Component {
   constructor(){
@@ -86,6 +87,9 @@ class Paralax extends React.Component {
           <Element img={mopribon} ele="mopribon" scroll={this.state.scroll} startPosition={this.state.elements.mopribon} speed={2.2}/>
           <Element img={arrow} ele="arrow2" scroll={this.state.scroll} startPosition={this.state.elements.arrow2} speed={2}/>
           <Element img={hand} ele="hand2" scroll={this.state.scroll} startPosition={this.state.elements.hand2} speed={2.3}/>
+        </div>
+        <div className="mobileImg">
+          <img src={mobileImage} />
         </div>
       </div>
     );

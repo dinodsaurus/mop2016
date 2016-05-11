@@ -2,9 +2,15 @@
 // you can overwrite settings here
 @import 's-grid-functions'
 @import './colors'
+@import './mixins'
 .sponsors
+  padding: 0 20px
   .container
-    padding-top: 100px
+    margin-top: 1800px
+    @media phone
+      margin-top: 0
+    @media tablet
+      padding: 100px 20px
   .text
     float: left
     width: 100%
@@ -19,6 +25,9 @@
         text-transform: uppercase
         font-size:455px
         letter-spacing: -31.6px;
+        @media phone
+          font-size:150px
+          letter-spacing: 0
       &.desc
         font-family: "DiaLight"
         font-size:36px
@@ -53,5 +62,13 @@
         margin-left: 0
       &.four
         cell(3)
+        @media phone
+          cell(1, 1)
+        @media tablet
+          cell(1, 2)
       &.three
         cell(4)
+        @media phone
+          cell(1, 1)
+        @media tablet
+          cell(1, 2)

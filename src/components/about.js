@@ -26,10 +26,10 @@ class Schedule extends React.Component {
               <p>The festival has so far held four times as annual regional festival through which promotes the multimedia and digital culture, with an emphasis on exchange of knowledge and creative use of new technologies in art, science and design.</p>
               <div className="small">
                 <h4>Past editions</h4>
-                <a href="http://dizajnsvakidan.com/zavrsni-dan-mop-a/">12</a>
-                <a href="http://2013.mop-fest.com/">13</a>
-                <a href="http://2014.mop-fest.com/">14</a>
-                <a href="http://2013.mop-fest.com/">15</a>
+                <a className="year" href="http://dizajnsvakidan.com/zavrsni-dan-mop-a/">12</a>
+                <a className="year" href="http://2013.mop-fest.com/">13</a>
+                <a className="year" href="http://2014.mop-fest.com/">14</a>
+                <a className="year" href="http://2013.mop-fest.com/">15</a>
               </div>
             </div>
           </div>

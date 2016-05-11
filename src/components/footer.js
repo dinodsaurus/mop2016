@@ -25,20 +25,20 @@ class Footer extends React.Component {
         {link}
         <div className="container group">
           <p className="txt">Made width <span className="heart">♥</span><br/>
-            Fran, Dino & Marko</p>
+            <a href="https://twitter.com/franmubrin">Fran</a>, <a href="https://twitter.com/dinodsaurus">Dino</a> & <a href="https://twitter.com/markhrast">Marko</a></p>
           <p className="copy">© 2016</p>
           <ul className="social">
             <li className="icon facebook">
-              <a></a>
+              <a href="https://www.facebook.com/MOPfest/"></a>
             </li>
             <li className="icon instagram">
-              <a></a>
+              <a href="https://www.instagram.com/mopfest/"></a>
             </li>
             <li className="icon vimeo">
-              <a></a>
+              <a href="https://vimeo.com/mopfest"></a>
             </li>
             <li className="icon twitter">
-              <a></a>
+              <a href="https://twitter.com/mopfest"></a>
             </li>
           </ul>
         </div>
