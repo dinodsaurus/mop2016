@@ -13,9 +13,9 @@ class Schedule extends React.Component {
         <div className="container group">
           <div className="titleTxt">
             <h2>MOP ŠPANCIRFEST
-                is a multimedia festival.
+                MULTIMEDIA FESTIVAL
             </h2>
-            <p>The festival is free and includes lectures, weekly workshops, exhibitions, video screenings, interactive installations, performances, films and audio-visual installations integrated into his music part. Starting this year, partner of MOP Association and co-organizer of multimedia festival is Varaždin Tourist Board. Festival program is free.</p>
+            <p>The festival is free and includes lectures, weekly workshops, exhibitions, video screenings, interactive installations, performances, films and audio-visual installations integrated into it's music part. Starting this year, partner of MOP Association and co-organizer of multimedia festival is Varaždin Tourist Board.</p>
           </div>
           <img src={img1}/>
           <div className="section">
@@ -23,7 +23,7 @@ class Schedule extends React.Component {
               <h3>History</h3>
             </div>
             <div className="item">
-              <p>The festival has so far held four times as annual regional festival through which promotes the multimedia and digital culture, with an emphasis on exchange of knowledge and creative use of new technologies in art, science and design.</p>
+              <p>The festival has so far held four times as annual regional festival which promotes the multimedia and digital culture, with an emphasis on exchange of knowledge and creative use of new technologies in art, science and design.</p>
               <div className="small">
                 <h4>Past editions</h4>
                 <a className="year" href="http://dizajnsvakidan.com/zavrsni-dan-mop-a/">12</a>
@@ -45,9 +45,9 @@ class Schedule extends React.Component {
                   <h4>Venues</h4>
                   <a href="https://www.google.hr/maps/place/HRVATSKO+NARODNO+KAZALI%C5%A0TE+U+VARA%C5%BDDINU/@46.3057008,16.3351257,17z/data=!3m1!4b1!4m2!3m1!1s0x4768aad0b4d1687f:0x45ba01edd71338f6?shorturl=1">Croatian National Theatre in Varaždin</a>
                   <h4>Venues</h4>
-                  <a href="https://goo.gl/maps/qByKtYiow162">Palača Herzer</a>
+                  <a href="https://goo.gl/maps/qByKtYiow162">Palace Herzer</a>
                   <h4>Food</h4>
-                  <a href="https://goo.gl/maps/rzuxxCTZYZ12">Anglesu restourant</a>
+                  <a href="https://goo.gl/maps/rzuxxCTZYZ12">Angelus restaurant</a>
                   <h4>Sleep</h4>
                   <a href="http://www.tourism-varazdin.hr/en/accommodation/">City Hostels</a>
                 </div>
@@ -74,15 +74,15 @@ class Schedule extends React.Component {
                 <div className="half">
                   <h4>Organizators</h4>
                   <p>Udruga MOP</p>
-                  <p>Turistička zajednica grada Varaždina</p>
+                  <p>Varaždin city Toursit Board</p>
                   <h4>Head organizational team</h4>
-                  <p>Fran Mubrin, kreaticni i art direktor</p>
-                  <p>Mihael Miklošić, koordinator projekta</p>
-                  <p>Oliver Potočnik, koordinator projekta</p>
+                  <p>Fran Mubrin, Festival director</p>
+                  <p>Mihael Miklošić, project cordinator</p>
+                  <p>Oliver Potočnik, project cordinator</p>
                   <h4>Festival program associates</h4>
                   <p>Marijo Janković</p>
                   <p>Dino Trojak</p>
-                  <h4>Visual identety</h4>
+                  <h4>Visual identity</h4>
                   <p>Marko Hrastovec</p>
                   <p>Fran Mubrin(web)</p>
                 </div>

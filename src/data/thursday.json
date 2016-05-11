@@ -3,7 +3,7 @@
     {
       "id": 1,
       "type": "W",
-      "time": "15.00 — 19.00",
+      "time": "10.00 — 15.00",
       "location": "Palace Herzer",
       "author": "JavaScript Zagreb",
       "img": [{
@@ -23,9 +23,10 @@
     {
       "id": 2,
       "type": "W",
-      "time": "16.00 — 19.00",
+      "time": "15.00 — 18.00",
       "location": "Palace Herzer",
       "author": "404 Agency",
+      "description": "Learn the basics of advertising with expert guidance from the digital agency 404! Find out how campaigns are made – starting with a client's brief and brainstorming all the way to the finished agency solution. Join us at the workshop if you're interested in design, copywriting, animation or team communication. What awaits you? You will learn the basics of the creative process in digital advertising. You will receive a task, solve the communication problem and produce a creative solution with the support of the team from 404. We will be focusing on a key visual and a short YouTube video. ",
       "img": [{
         "author": "Tom Palinić",
         "position": "Copywriter at 404",
@@ -42,7 +43,6 @@
       ],
       "author_desc": "Agency 404 is a common denominator for a team of experts in the field of communications and digital media, at any time ready to offer the best solutions to the challenges you face in business. With acquired knowledge, specialized skills and proactive approach 404 can find solutions in the field of digital communications, public relations and design and production.",
       "title": "Digital Advertising",
-      "description": "",
       "links": {
         "facebook": "https://www.facebook.com/404.agency/"
       }
@@ -50,7 +50,7 @@
     {
       "id": 3,
       "type": "W",
-      "time": "17.00 — 19.00",
+      "time": "18.00 — 19.00",
       "location": "Palace Herzer",
       "author": "Marin Kereša",
       "position": "CEO at nuArs",
@@ -78,7 +78,7 @@
     {
       "id": 6,
       "type": "M",
-      "time": "17.00 — 19.00",
+      "time": "20.15 — 21.00",
       "location": "Cinema Galerija",
       "author": "Monika Rusak",
       "author_desc": "Monika Rusak was born 1991. in Varaždin. In 2013. she finished professional Graphical studies with emphasis in multimedia on the Polytechnic in Varaždin, acquired the title of bacc. ing. techn. graph.2013. - 2015. Academy of Applied Arts at the University of Rijeka, graduate study Media Arts and practices (course: Intermedia). Currently she is working as graphic editor at Varaždinske vijesti. Through three years of education at the Polytechnic in Varaždin , she intensely does photography as well as other media: video and sound.",
