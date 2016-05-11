@@ -8,7 +8,10 @@ class Speakers extends React.Component {
 
     setTimeout(() => {
       browserHistory.push(`schedule?day=${item.day}&id=${item.id}`)
-      Loading.dispatch({type: 'NOLOADING'});
+      Loading.dispatch({type: 'HIDE'});
+      setTimeout(() => {
+        Loading.dispatch({type: 'NOLOADING'});
+      }, 700)
     }, 700)
   }
   renderItem(item, i) {

@@ -16,7 +16,10 @@ const startLoading = () => {
 
   setTimeout(() => {
     window.scrollTo(0, 0);
-    Loading.dispatch({type: 'NOLOADING'});
+    Loading.dispatch({type: 'HIDE'});
+    setTimeout(() => {
+      Loading.dispatch({type: 'NOLOADING'});
+    }, 700)
   }, 900)
 }
 

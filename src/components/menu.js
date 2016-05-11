@@ -14,7 +14,10 @@ class Header extends React.Component {
     Loading.dispatch({type: 'LOADING'});
     setTimeout(() => {
       browserHistory.push(`schedule`)
-      Loading.dispatch({type: 'NOLOADING'});
+      Loading.dispatch({type: 'HIDE'});
+      setTimeout(() => {
+        Loading.dispatch({type: 'NOLOADING'});
+      }, 700)
     }, 700);
   }
   render() {

@@ -1,11 +1,13 @@
 import { createStore } from 'redux';
 
-function loading(state = false, action) {
+function loading(state = 0, action) {
   switch (action.type) {
   case 'LOADING':
-    return state = true
+    return state = 1
+  case 'HIDE':
+    return state = 2
   case 'NOLOADING':
-    return state = false
+    return state = 0
   default:
     return state
   }

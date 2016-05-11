@@ -2,7 +2,7 @@ import React from 'react';
 class El extends React.Component {
   render() {
     const style = {
-      top: this.props.startPosition - this.props.scroll / this.props.speed
+      top: Math.round(this.props.startPosition - this.props.scroll / this.props.speed)
     }
     return (
       <div className={`element ${this.props.ele}`} style={style}>
