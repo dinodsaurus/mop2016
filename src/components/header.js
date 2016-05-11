@@ -38,16 +38,16 @@ class Header extends React.Component {
     }
     return (
       <div className="header">
-          <h1>MOP<br/>
-          ŠPANCIRFEST<br/>
-          Multimedia festival<br/>
-          25.5. — 28.5.2016.<br/>
-          Varaždin</h1>
         <div className="menu">
           <div className="double"></div>
           <a className="menuLink" onClick={this.showMenu.bind(this)}>{text}</a>
           <Menu noAnimation={this.state.noAnimation} active={this.state.showMenu} exiting={this.state.exiting} moveUp={this.moveUp.bind(this)}/>
         </div>
+          <h1>MOP<br/>
+          ŠPANCIRFEST<br/>
+          Multimedia festival<br/>
+          25.5. — 28.5.2016.<br/>
+          Varaždin</h1>
       </div>
     );
   }
