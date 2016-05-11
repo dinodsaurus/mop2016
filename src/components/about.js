@@ -3,11 +3,13 @@ import React from 'react';
 import img1 from '../images/about.png';
 import img2 from '../images/about2.png';
 import img3 from '../images/about3.png';
+import Title from './title'
 
 class Schedule extends React.Component {
   render() {
     return (
       <div className="about">
+        <Title title="About"/>
         <div className="container group">
           <div className="titleTxt">
             <h2>MOP ŠPANCIRFEST

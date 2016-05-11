@@ -2,6 +2,7 @@ import '../styles/schedule.styl'
 import React from 'react';
 import Day from './schedule/day';
 import Filter from './schedule/filter';
+import Title from './title'
 
 import monday from '../data/monday.json';
 import thursday from '../data/thursday.json';
@@ -43,8 +44,6 @@ class Schedule extends React.Component {
     }
   }
   activateDate(id, d) {
-    console.log(id);
-    console.log(d);
     let day = this.state[d] || [];
     day.forEach(s => {
       if(s.id == id){
@@ -105,6 +104,7 @@ class Schedule extends React.Component {
   render() {
     return (
       <div className="schedule">
+        <Title title="Schedule"/>
         <div className="container group">
           <Filter filter={this.state.filter} changeFilter={this.changeFilter.bind(this)}/>
           <Day img={mon} activateDate={this.activateDate.bind(this)} schedule={this.state.mondayFiltered} day="MON" dayFull="monday"/>

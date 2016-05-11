@@ -100,7 +100,7 @@ class Sponsors extends React.Component {
   render() {
     return (
       <div className='sponsors'>
-        <Title title="Sponsors"/>
+        <Title title="Partners"/>
         <div className='container'>
           <SponsorList title='Main Partners' size={3} list={this.state.main}/>
           <SponsorList title='Partners' size={4} list={this.state.partners}/>

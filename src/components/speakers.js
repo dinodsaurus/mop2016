@@ -2,6 +2,7 @@ import '../styles/speakers.styl';
 
 import React from 'react';
 import SpeakerList from './speakers/speakerList';
+import Title from './title'
 
 import monday from '../data/monday.json';
 import thursday from '../data/thursday.json';
@@ -62,6 +63,7 @@ class Speakers extends React.Component {
   render() {
     return (
       <div className="speakers">
+        <Title title="Speakers"/>
         <div className="container">
           <SpeakerList list={this.state.list}/>
         </div>
