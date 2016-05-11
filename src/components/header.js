@@ -46,7 +46,7 @@ class Header extends React.Component {
           <h1>MOP<br/>
           ŠPANCIRFEST<br/>
           Multimedia festival<br/>
-          25.5. — 28.5.2016.<br/>
+          23.5. — 28.5.2016.<br/>
           Varaždin</h1>
       </div>
     );
