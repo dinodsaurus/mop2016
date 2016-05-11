@@ -4,6 +4,7 @@ import classnames from 'classnames';
 class Session extends React.Component {
   handleClick(e) {
     e.preventDefault();
+    console.log(e);
     if (this.props.session.description) {
       this.props.activateDate(this.props.session.id, this.props.dayFull)
     }

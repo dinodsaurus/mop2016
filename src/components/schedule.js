@@ -43,6 +43,8 @@ class Schedule extends React.Component {
     }
   }
   activateDate(id, d) {
+    console.log(id);
+    console.log(d);
     let day = this.state[d] || [];
     day.forEach(s => {
       if(s.id == id){
