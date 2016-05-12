@@ -17,9 +17,6 @@ class Footer extends React.Component {
         </div>
       )
     }
-    if(path === '/') {
-      return false;
-    }
     return (
       <div className="footer">
         {link}
