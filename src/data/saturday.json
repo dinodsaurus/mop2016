@@ -16,21 +16,6 @@
       }
     },
     {
-      "id": 2,
-      "type": "W",
-      "time": "12.00 — 14.00",
-      "location": "Promenade Vatroslav Jagić",
-      "author": "Danijela Domljan",
-      "img": "Danijela_Domljan.jpg",
-      "position": "Assistant Professor at University of Zagreb Faculty of Forestry",
-      "author_desc": "Doc. dr. sc. Danijela Domljan is a professional member of the Croatian Designers' Association with a Master's degree in design. An award-winning author with 20 years of work experience in furniture design and education in the field of design with wood. She is the first Croatian doctor of sciences in biotechnics, which she became with the thesis 'Designing school furniture with the aim of improving student health' on the Faculty of Forestry in Zagreb, where she now works as a docent. As of yet, she has published over 90 scientific papers, as well as over 50 lectures and numerous exhibitions and workshops, including eight designers' sketching workshops for high school teachers and four for students and children.",
-      "title": "Sketching for designers",
-      "description": "Drawing an object by observation or sketching an idea onto paper requires certain skills and abilities. One of the methods designers use is freehand sketching. This workshop teaches children how to observe and draw relations in size and distance, how to reproduce three-dimensional objects in a two-dimensional medium, how to translate perspective... Mastering these elements of drawing by sight helps with good eye-to-hand coordination and other skills crucial to actualizing our thoughts and ideas as designers.",
-      "links": {
-        "facebook": "https://www.facebook.com/Dizajnerska-po%C4%8Detnica-804629082898351/?ref=ts"
-      }
-    },
-    {
       "id": 3,
       "type": "L",
       "time": "10.00 — 10.45",
@@ -240,6 +225,62 @@
       "location": "Gallery Center Varaždin",
       "author": "Vana Gaćina",
       "title": "Vestigum"
+    },
+    {
+      "id": 16,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "MyWay",
+      "title": "DJ Mario Horvat"
+    },
+    {
+      "id": 17,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Elephant",
+      "title": "ŠUŠ DOTS"
+    },
+    {
+      "id": 18,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Elephant",
+      "title": "ŠUŠ DOTS"
+    },
+    {
+      "id": 19,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Underground bar Zvonimir Rogoz",
+      "title": "VJ Franjo Maltar"
+    },
+    {
+      "id": 20,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Underground bar Zvonimir Rogoz",
+      "title": "Chui"
+    },
+    {
+      "id": 21,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Underground bar Zvonimir Rogoz",
+      "title": "DTM"
+    },
+    {
+      "id": 22,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Underground bar Zvonimir Rogoz",
+      "title": "Mc Big OZ"
+    },
+    {
+      "id": 23,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Underground bar Zvonimir Rogoz",
+      "title": "Filip Motovunski"
     }
   ]
 }

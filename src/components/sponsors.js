@@ -54,6 +54,14 @@ class Sponsors extends React.Component {
         {
           img: 'twobucks.png',
           link: 'http://twobucks.co/'
+        },
+        {
+          img: 'toptal.png',
+          link: 'http://toptal.com/'
+        },
+        {
+          img: 'unin_logo.png',
+          link: 'https://www.unin.hr/'
         }
       ],
       media: [

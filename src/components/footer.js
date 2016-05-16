@@ -1,8 +1,19 @@
 import '../styles/footer.styl';
 import React from 'react';
-import { Link } from 'react-router'
+import { browserHistory } from 'react-router'
+import Loading from 'stores/loading';
 
 class Footer extends React.Component {
+  goTo() {
+    Loading.dispatch({type: 'LOADING'});
+    setTimeout(() => {
+      browserHistory.push(`schedule`)
+      Loading.dispatch({type: 'HIDE'});
+      setTimeout(() => {
+        Loading.dispatch({type: 'NOLOADING'});
+      }, 700)
+    }, 700);
+  }
   render() {
     let link = '';
     const path = document.location.pathname;
@@ -10,7 +21,7 @@ class Footer extends React.Component {
       link = (
         <div className="container group">
           <div className="program">
-            <Link to="/schedule">See the full program now!</Link>
+            <a onClick={this.goTo}>See the full program now!</a>
             <div className="hand"></div>
             <div className="hand2"></div>
           </div>
