@@ -62,6 +62,11 @@ class Sponsors extends React.Component {
         {
           img: 'unin_logo.png',
           link: 'https://www.unin.hr/'
+        },
+        {
+          img: 'dobarkod.png',
+          link: 'http://goodcode.io/',
+          big: true
         }
       ],
       media: [

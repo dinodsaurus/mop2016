@@ -24,7 +24,7 @@
       "img": "Joel_Dullroy.jpg",
       "position": "Freelance Writer",
       "author_desc": "Joel is a journalist, startup founder and activist for the European freelancers' movement. He lives in Berlin, where he produces a local news podcast called Radio Spaetkauf. He is the international representative of the VGSD, Germany's freelancers' association. He researches and writes about the various ways freelancers are joining together to create common solutions.",
-      "title": "Independents Unite! The Freelancers' Rights Movement",
+      "title": "Independents Unite!",
       "description": "Freelancers work alone, but have many common problems. Across Europe, they are joining together in organizations and campaigns to improve their working and social conditions. The many different organizations meet regularly and have launched a website to draw attention to their cause:www.freelancers-europe.org. Joel Dullroy is a campaigner involved in the movement, and will talk about the various problems freelancers experience, and what we can do to fix them.",
       "links": {
         "twitter": "https://twitter.com/joeldullroy"
@@ -55,9 +55,9 @@
       "author": "Matija Raos",
       "position": "President at HDNP",
       "img": "Matija_Raos.jpg",
+      "description": "In the MOP festival's casual atmosphere, we will explore the meaning and the purpose of the slogan “Independent yet united! Freelance not Free!”. From EUROSTAT statistics we know that there are more then 200,000 independent and self-employed professionals working in Croatia, but what do we know about what they do, where they come from, what are their day-to-day problems, how much they earn, are they happy? Hrvatsko društvo nezavisnih profesionalaca (HDNP) is a young, not-for-profit professional cross-sector association which aims to create, promote and sustain a healthy ecosystem for independent and self-employed professionals working in Croatia. At the moment, HDNP represents close to 2500 independent and self-employed professionals from all sectors of the economy in Croatia with more than 70% of them working in the Cultural Creative sector. Perhaps the CC sector can serve as a catalyst in creating a flexible but structured and regulated labour market that can positively impact Croatia’s economic growth and bring innovation in solving high unemployment, especially among youth.",
       "author_desc": "Matija is Independent Creative Strategist and visual communications designer. He’s the President of the Croatian Independent Professionals Association (HDNP) and the Program Leader of Coworking Croatia. HDNP is a nonprofit organization aiming to create, promote and sustain healthy eco-system for independent and self-employed professionals in Croatia through advocacy and business support, including professional development, job opportunity platforms and easily accessible social workplace – coworking spaces. Coworking Croatia, the national coworking community and the informal network of coworking spaces coordinated by CIPA, provides information and support platform for the creation of sustainable and collaborative coworking spaces, promotes Coworking movement and connects it to Freelancers movement in Croatia.",
-      "title": "Independent yet united!",
-      "description": "",
+      "title": "The Story of Croatian Freelance Movement",
       "links": {
         "linkedin": "https://www.linkedin.com/in/matijaraos"
       }
@@ -251,35 +251,35 @@
       "id": 19,
       "type": "P",
       "time": "22.00 — 05.00",
-      "author": "Underground bar Zvonimir Rogoz",
+      "author": "Zvonimir Rogoz Bar",
       "title": "VJ Franjo Maltar"
     },
     {
       "id": 20,
       "type": "P",
       "time": "22.00 — 05.00",
-      "author": "Underground bar Zvonimir Rogoz",
+      "author": "Zvonimir Rogoz Bar",
       "title": "Chui"
     },
     {
       "id": 21,
       "type": "P",
       "time": "22.00 — 05.00",
-      "author": "Underground bar Zvonimir Rogoz",
+      "author": "Zvonimir Rogoz Bar",
       "title": "DTM"
     },
     {
       "id": 22,
       "type": "P",
       "time": "22.00 — 05.00",
-      "author": "Underground bar Zvonimir Rogoz",
+      "author": "Zvonimir Rogoz Bar",
       "title": "Mc Big OZ"
     },
     {
       "id": 23,
       "type": "P",
       "time": "22.00 — 05.00",
-      "author": "Underground bar Zvonimir Rogoz",
+      "author": "Zvonimir Rogoz Bar",
       "title": "Filip Motovunski"
     }
   ]
