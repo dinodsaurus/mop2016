@@ -106,6 +106,11 @@ class Sponsors extends React.Component {
           img: 'presedan.png',
           link: 'http://pressedan.unin.hr/',
           big: true
+        },
+        {
+          img: 'logo_hdnp.png',
+          link: 'http://hdnp.hr/',
+          big: true
         }
       ]
     }
