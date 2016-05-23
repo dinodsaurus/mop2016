@@ -3,7 +3,7 @@
     {
       "id": 1,
       "type": "W",
-      "time": "10.00 — 12.00",
+      "time": "10.00 — 14.00",
       "location": "Promenade Vatroslav Jagić",
       "author": "Maja Jandrić",
       "img": "Maja_Jandric.jpg",
@@ -238,7 +238,21 @@
       "type": "P",
       "time": "22.00 — 05.00",
       "author": "Elephant",
-      "title": "ŠUŠ DOTS"
+      "title": "DOT"
+    },
+    {
+      "id": 24,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Mea Culpa",
+      "title": "Clubing"
+    },
+    {
+      "id": 25,
+      "type": "P",
+      "time": "22.00 — 05.00",
+      "author": "Aquamarin",
+      "title": "Clubing"
     },
     {
       "id": 19,
