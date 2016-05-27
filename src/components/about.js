@@ -29,7 +29,7 @@ class Schedule extends React.Component {
                 <a className="year" href="http://dizajnsvakidan.com/zavrsni-dan-mop-a/">12</a>
                 <a className="year" href="http://2013.mop-fest.com/">13</a>
                 <a className="year" href="http://2014.mop-fest.com/">14</a>
-                <a className="year" href="http://2013.mop-fest.com/">15</a>
+                <a className="year" href="http://2015.mop-fest.com/">15</a>
               </div>
             </div>
           </div>
